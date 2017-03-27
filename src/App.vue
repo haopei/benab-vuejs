@@ -1,24 +1,19 @@
 <template>
     <div>
-        <h1>The Benab Foundation</h1>
-        <router-link :to="{ name: 'HomePage' }">Home</router-link>
-        <router-link :to="{ name: 'Cog2017Page' }">Cog2017</router-link>
-        <router-link :to="{ name: 'ProjectsPage' }">Projects</router-link>
-        <router-link :to="{ name: 'GetInvolvedPage' }">Get Involved</router-link>
-        <router-link :to="{ name: 'AboutPage' }">About</router-link>
+        <benab-header></benab-header>
         <router-view></router-view>
         <benab-footer></benab-footer>
-
     </div>
 </template>
-
 <script>
 
+import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
 
 export default {
     components: {
-        BenabFooter: Footer
+        BenabFooter: Footer,
+        BenabHeader: Header
     },
     data() {
         return {
