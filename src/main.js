@@ -23,9 +23,8 @@ const routes = [
     { path: '/get-involved', component: GetInvolvedPage, name: 'GetInvolvedPage', children: [
       { path: '/volunteer', component: VolunteerPage, name: 'VolunteerPage' },
       { path: '/sponsor', component: SponsorPage, name: 'SponsorPage' },
-    ]},
-    { path: '/membership', component: MembershipPage, name: 'MembershipPage' },
-
+      { path: '/membership', component: MembershipPage, name: 'MembershipPage' }
+    ]}
 ]
 
 const router = new VueRouter({
