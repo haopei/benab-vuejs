@@ -1,6 +1,13 @@
 <template lang="html">
     <div class="page page--get-involved">
         <h3>Get Involved</h3>
+        <div class="requirements">
+            <ul>
+                <li>Hero</li>
+                <li>Short paragraph to entice involvement</li>
+                <li>Link three ways to get involved: volunteering, sponsorship, membership</li>
+            </ul>
+        </div>
         <router-view></router-view>
     </div>
 </template>
