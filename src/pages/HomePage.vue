@@ -1,6 +1,41 @@
 <template>
   <div class="page page--home">
-    <h3>Home</h3>
+    <section class="hero is-info is-large">
+      <div class="hero-body">
+        <div class="container"><h1 class="title">Large title
+          </h1>
+          <h2 class="subtitle">
+            Large subtitle
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="section is-large">
+      <div class="container">
+        <div class="heading"><h1 class="title">Cognitive Initiative 2017</h1></div>
+        <h2 class="subtitle">Leveling up students who are preparing for their 3rd Form Exams</h2>
+      </div>
+    </section>
+
+    <section class="section is-medium">
+      <div class="container">
+        <div class="heading"><h1 class="title">Sponsors</h1></div>
+        <h2 class="subtitle">Our gratitude to our sponsors who make it happen</h2>
+      </div>
+    </section>
+
+    <section class="section is-medium">
+      <div class="container">
+        <div class="heading"><h1 class="title">Get Involved</h1></div>
+        <h2 class="subtitle">Be part of the magic</h2>
+        <div class="columns">
+            <div class="column"><h3 class="subtitle is-3">Volunteer With Us</h3></div>
+            <div class="column"><h3 class="subtitle is-3">Sponsor The Foundation</h3></div>
+            <div class="column"><h3 class="subtitle is-3">Join Our Team</h3></div>
+        </div>
+      </div>
+    </section>
 
     <div class="requirements">
         <ul>
