@@ -35,9 +35,13 @@
 </template>
 
 <script>
+
+// Component Imports
 import GetInvolved from './../components/GetInvolved.vue'
 import SponsorsList from './../components/SponsorsList.vue'
-import { allSponsors } from './../data/data.js'
+
+// Data Imports
+import { allSponsors } from './../data/sponsors.js'
 
 export default {
   components: {
