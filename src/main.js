@@ -20,7 +20,7 @@ Vue.use(VueRouter)
 const routes = [
     { path: '/', component: HomePage, name: 'HomePage' },
     { path: '/projects', component: ProjectsPage, name: 'ProjectsPage', children: [
-        // { path: 'all', component: AllProjectsList, name: 'AllProjectsList'},
+        { path: 'all', component: AllProjectsList, name: 'AllProjectsList'},
         { path: 'cognitive-initiative-2017', component: Cog2017Page, name: 'Cog2017Page'}
     ]},
     { path: '/about', component: AboutPage, name: 'AboutPage' },

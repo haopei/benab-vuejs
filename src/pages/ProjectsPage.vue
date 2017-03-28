@@ -1,6 +1,6 @@
 <template>
     <div class="page page--projects">
-        <all-projects-list></all-projects-list>
+        <router-view></router-view>
     </div>
 </template>
 
