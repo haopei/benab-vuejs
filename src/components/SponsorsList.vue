@@ -1,8 +1,8 @@
 <template lang="html">
     <section class="section is-medium">
       <div class="container">
-        <div class="heading"><h1 class="title">Sponsors</h1></div>
-        <h2 class="subtitle">Our gratitude to our sponsors who make it happen</h2>
+        <h1 class="title">Sponsors</h1>
+        <h3 class="subtitle">Our gratitude to our sponsors who make it happen</h3>
         <pre>{{ sponsors }}</pre>
       </div>
     </section>
