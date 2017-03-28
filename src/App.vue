@@ -26,9 +26,8 @@ export default {
 <style lang="scss">
     @import '~bulma/bulma.sass';
 
-    $primary-color: #333;
-    h1 {
-        color: $primary-color
+    .padded-space {
+        margin-bottom: 1rem;
     }
 
 </style>

@@ -22,6 +22,8 @@
             </div>
         </section>
 
+        <strong>Elements of focus: queens college, partitioned students based on level, one-on-one focus</strong>
+
         <section class="section">
             <div class="container">
                 <div class="columns">
@@ -81,7 +83,6 @@ export default {
     mounted: function() {
         this.allSponsors = allSponsors
     }
-
 }
 </script>
 
