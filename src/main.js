@@ -12,11 +12,15 @@ import ProjectsPage from './pages/ProjectsPage.vue'
 import SponsorPage from './pages/SponsorPage.vue'
 import VolunteerPage from './pages/VolunteerPage.vue'
 
+// Page Partials
+import AllProjectsList from './components/AllProjectsList.vue'
+
 Vue.use(VueRouter)
 
 const routes = [
     { path: '/', component: HomePage, name: 'HomePage' },
     { path: '/projects', component: ProjectsPage, name: 'ProjectsPage', children: [
+        { path: 'all', component: AllProjectsList, name: 'AllProjectsList'},
         { path: 'cognitive-initiative-2017', component: Cog2017Page, name: 'Cog2017Page'}
     ]},
     { path: '/about', component: AboutPage, name: 'AboutPage' },
