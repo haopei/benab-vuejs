@@ -19,15 +19,7 @@
     </section>
 
     <benab-get-involved></benab-get-involved>
-
-    <section class="section is-medium">
-      <div class="container">
-        <div class="heading"><h1 class="title">Sponsors</h1></div>
-        <h2 class="subtitle">Our gratitude to our sponsors who make it happen</h2>
-      </div>
-    </section>
-
-
+    <sponsors-list :sponsors="sponsors"></sponsors-list>
 
     <div class="requirements">
         <ul>
@@ -44,10 +36,21 @@
 
 <script>
 import GetInvolved from './../components/GetInvolved.vue'
+import SponsorsList from './../components/SponsorsList.vue'
+import { allSponsors } from './../data/data.js'
 
 export default {
   components: {
-    BenabGetInvolved: GetInvolved
+    BenabGetInvolved: GetInvolved,
+    SponsorsList: SponsorsList
+  },
+  data() {
+    return {
+      sponsors: []
+    }
+  },
+  mounted: function() {
+    this.sponsors = allSponsors
   }
 }
 </script>
