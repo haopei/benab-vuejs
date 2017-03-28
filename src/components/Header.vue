@@ -21,7 +21,7 @@
         <div class="nav-right nav-menu">
             <router-link :to="{ name: 'HomePage' }" class="nav-item is-tab"><a @click="handleLinkClick">Home</a></router-link>
             <router-link :to="{ name: 'Cog2017Page' }" class="nav-item is-tab"><a @click="handleLinkClick">Cog2017</a></router-link>
-            <router-link :to="{ name: 'AllProjectsList' }" class="nav-item is-tab"><a @click="handleLinkClick">Projects</a></router-link>
+            <router-link :to="{ name: 'ProjectsPage' }" class="nav-item is-tab"><a @click="handleLinkClick">Projects</a></router-link>
             <router-link :to="{ name: 'AboutPage' }" class="nav-item is-tab"><a @click="handleLinkClick">About</a></router-link>
 
           <span class="nav-item">
