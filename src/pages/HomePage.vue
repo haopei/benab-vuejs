@@ -21,16 +21,6 @@
     <benab-get-involved></benab-get-involved>
     <sponsors-list :sponsors="sponsors"></sponsors-list>
 
-    <div class="requirements">
-        <ul>
-            <li>Hero</li>
-            <li>Cog2016</li>
-            <li>Other Projects</li>
-            <li>List of Sponsors</li>
-            <li>Volunteers</li>
-        </ul>
-    </div>
-
   </div>
 </template>
 

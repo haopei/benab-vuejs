@@ -1,12 +1,15 @@
 <template>
     <div class="page page--projects">
-        <h3>Projects</h3>
-        <router-view></router-view>
+        <all-projects-list></all-projects-list>
     </div>
 </template>
 
 <script>
+import AllProjectsList from './../components/AllProjectsList/AllProjectsList.vue'
 export default {
+    components: {
+        AllProjectsList
+    }
 }
 </script>
 
