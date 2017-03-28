@@ -9,7 +9,7 @@
         </div>
     </section>
 
-    <benab-get-involved></benab-get-involved>
+    <get-involved></get-involved>
     <sponsors-list :sponsors="sponsors"></sponsors-list>
 
   </div>
@@ -21,13 +21,17 @@
 import GetInvolved from './../components/GetInvolved.vue'
 import SponsorsList from './../components/SponsorsList.vue'
 
+// Partial Imports
+import CogPartial from './../components/CogPartial/CogPartial.vue'
+
 // Data Imports
 import { allSponsors } from './../data/sponsors.js'
 
 export default {
   components: {
-    BenabGetInvolved: GetInvolved,
-    SponsorsList: SponsorsList
+    GetInvolved,
+    SponsorsList,
+    CogPartial
   },
   data() {
     return {
@@ -41,4 +45,5 @@ export default {
 </script>
 
 <style lang="scss">
+  
 </style>
