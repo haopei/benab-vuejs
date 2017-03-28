@@ -2,8 +2,8 @@
   <div class="page page--home">
     <section class="hero is-info is-large">
       <div class="hero-body">
-        <div class="container"><h1 class="title">Large title
-          </h1>
+        <div class="container">
+          <h1 class="title">Large title</h1>
           <h2 class="subtitle">
             Large subtitle
           </h2>
@@ -18,6 +18,8 @@
       </div>
     </section>
 
+    <benab-get-involved></benab-get-involved>
+
     <section class="section is-medium">
       <div class="container">
         <div class="heading"><h1 class="title">Sponsors</h1></div>
@@ -25,7 +27,7 @@
       </div>
     </section>
 
-    <benab-get-involved></benab-get-involved>
+
 
     <div class="requirements">
         <ul>
