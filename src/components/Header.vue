@@ -19,20 +19,10 @@
         <!-- This "nav-menu" is hidden on mobile -->
         <!-- Add the modifier "is-active" to display it on mobile -->
         <div class="nav-right nav-menu">
-          <div class="nav-item">
-            <router-link :to="{ name: 'HomePage' }">Home</router-link>
-          </div>
-          <div class="nav-item">
-            <router-link :to="{ name: 'Cog2017Page' }">Cog2017</router-link>
-          </div>
-          <div class="nav-item">
-            <router-link :to="{ name: 'ProjectsPage' }">Projects</router-link>
-          </div>
-
-          <div class="nav-item">
-            <router-link :to="{ name: 'AboutPage' }">About</router-link>
-          </div>
-
+            <router-link :to="{ name: 'HomePage' }" class="nav-item is-tab">Home</router-link>
+            <router-link :to="{ name: 'Cog2017Page' }" class="nav-item is-tab">Cog2017</router-link>
+            <router-link :to="{ name: 'ProjectsPage' }" class="nav-item is-tab">Projects</router-link>
+            <router-link :to="{ name: 'AboutPage' }" class="nav-item is-tab">About</router-link>
           <span class="nav-item">
             <a class="button is-primary">
               <!-- <span class="icon">
