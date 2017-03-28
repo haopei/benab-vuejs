@@ -1,5 +1,7 @@
 <template>
     <div class="page page-cog-2017">
+        <h4>Cog 2017</h4>
+
         <section class="hero is-medium is-primary is-bold">
           <div class="hero-body">
             <div class="container">
