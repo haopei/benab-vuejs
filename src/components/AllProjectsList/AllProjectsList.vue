@@ -2,6 +2,7 @@
   <section class="section">
       <div class="container">
         <div v-for="project in allProjects" class="project-item">
+          <img :src="project.image" alt="">
           <pre>{{project}}</pre>
         </div>
       </div>
@@ -9,7 +10,7 @@
 </template>
 
 <script>
-import { allProjects } from './../data/data.js'
+import { allProjects } from './data.js'
 export default {
   data() {
     return {

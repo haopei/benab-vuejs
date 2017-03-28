@@ -13,7 +13,7 @@ import SponsorPage from './pages/SponsorPage.vue'
 import VolunteerPage from './pages/VolunteerPage.vue'
 
 // Page Partials
-import AllProjectsList from './components/AllProjectsList.vue'
+import AllProjectsList from './components/AllProjectsList/AllProjectsList.vue'
 
 Vue.use(VueRouter)
 
