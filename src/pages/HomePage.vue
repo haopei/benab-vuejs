@@ -11,7 +11,7 @@
       </div>
     </section>
 
-    <section class="section is-large">
+    <section class="section section-cog-2017 is-large">
       <div class="container">
         <div class="heading"><h1 class="title">Cognitive Initiative 2017</h1></div>
         <h2 class="subtitle">Leveling up students who are preparing for their 3rd Form Exams</h2>
