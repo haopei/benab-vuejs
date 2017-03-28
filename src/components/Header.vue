@@ -19,10 +19,10 @@
         <!-- This "nav-menu" is hidden on mobile -->
         <!-- Add the modifier "is-active" to display it on mobile -->
         <div class="nav-right nav-menu">
-            <router-link :to="{ name: 'HomePage' }" class="nav-item is-tab">Home</router-link>
-            <router-link :to="{ name: 'Cog2017Page' }" class="nav-item is-tab">Cog2017</router-link>
-            <router-link :to="{ name: 'ProjectsPage' }" class="nav-item is-tab">Projects</router-link>
-            <router-link :to="{ name: 'AboutPage' }" class="nav-item is-tab">About</router-link>
+            <router-link :to="{ name: 'HomePage' }" class="nav-item is-tab"><a @click="handleLinkClick">Home</a></router-link>
+            <router-link :to="{ name: 'Cog2017Page' }" class="nav-item is-tab"><a @click="handleLinkClick">Cog2017</a></router-link>
+            <router-link :to="{ name: 'ProjectsPage' }" class="nav-item is-tab"><a @click="handleLinkClick">Projects</a></router-link>
+            <router-link :to="{ name: 'AboutPage' }" class="nav-item is-tab"><a @click="handleLinkClick">About</a></router-link>
           <span class="nav-item">
             <a class="button is-primary">
               <!-- <span class="icon">
@@ -38,15 +38,25 @@
 
 <script>
 export default {
+  data() {
+    return {
+      isActiveClass: 'is-active',
+      navEl: null
+    }
+  },
   methods: {
     toggleHamburgerMenu() {
       // This "nav-menu" is hidden on mobile
       // Add the modifier "is-active" to display it on mobile
-      let isActiveClass = 'is-active';
-      let navEl = document.querySelector('.nav-menu');
-      let navIsActive = navEl.classList.contains(isActiveClass);
-      navIsActive ? navEl.classList.remove(isActiveClass) : navEl.classList.add(isActiveClass);
+      let navIsActive = this.navEl.classList.contains(this.isActiveClass);
+      navIsActive ? this.navEl.classList.remove(this.isActiveClass) : this.navEl.classList.add(this.isActiveClass);
+    },
+    handleLinkClick() {
+      this.navEl.classList.remove(this.isActiveClass);
     }
+  },
+  mounted() {
+    this.navEl = document.querySelector('.nav-menu');
   }
 }
 </script>
