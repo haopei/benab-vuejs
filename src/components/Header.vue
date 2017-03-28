@@ -25,7 +25,7 @@
             <router-link :to="{ name: 'AboutPage' }" class="nav-item is-tab"><a @click="handleLinkClick">About</a></router-link>
 
           <span class="nav-item">
-            <router-link :to="{ name: 'AboutPage' }" class="nav-item">
+            <router-link :to="{ name: 'GetInvolvedPage' }" class="nav-item">
               <a class="button is-primary" @click="handleLinkClick">
                 <!-- <span class="icon">
                   <i class="fa fa-download"></i>
