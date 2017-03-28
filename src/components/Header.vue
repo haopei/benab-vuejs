@@ -23,13 +23,15 @@
             <router-link :to="{ name: 'Cog2017Page' }" class="nav-item is-tab"><a @click="handleLinkClick">Cog2017</a></router-link>
             <router-link :to="{ name: 'ProjectsPage' }" class="nav-item is-tab"><a @click="handleLinkClick">Projects</a></router-link>
             <router-link :to="{ name: 'AboutPage' }" class="nav-item is-tab"><a @click="handleLinkClick">About</a></router-link>
+
           <span class="nav-item">
-            <a class="button is-primary">
-              <!-- <span class="icon">
-                <i class="fa fa-download"></i>
-              </span> -->
-              <span>Get Involved</span>
-            </a>
+            <router-link :to="{ name: 'AboutPage' }" class="nav-item">
+              <a class="button is-primary" @click="handleLinkClick">
+                <!-- <span class="icon">
+                  <i class="fa fa-download"></i>
+                </span> -->
+                Get Involved</a>
+            </router-link>
           </span>
         </div>
       </nav>
@@ -52,6 +54,7 @@ export default {
       navIsActive ? this.navEl.classList.remove(this.isActiveClass) : this.navEl.classList.add(this.isActiveClass);
     },
     handleLinkClick() {
+      // hide hamburger dropdown menu when a link is clicked
       this.navEl.classList.remove(this.isActiveClass);
     }
   },
