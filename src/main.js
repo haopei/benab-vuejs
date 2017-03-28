@@ -4,7 +4,7 @@ import App from './App.vue'
 
 // Pages
 import AboutPage from './pages/AboutPage.vue'
-import Cog2017Page from './pages/Cog2017Page.vue'
+import Cog2017Page from './pages/Cog2017Page/Cog2017Page.vue'
 import GetInvolvedPage from './pages/GetInvolvedPage.vue'
 import HomePage from './pages/HomePage.vue'
 import MembershipPage from './pages/MembershipPage.vue'

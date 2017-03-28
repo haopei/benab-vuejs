@@ -1,13 +1,14 @@
 <template>
     <div class="page page-cog-2017">
-        <section class="hero is-medium is-primary is-bold">
+
+        <section class="hero is-medium is-primary background--cog-hero">
           <div class="hero-body">
             <div class="container">
-              <h1 class="title">
-                Cognitive Initiative 2017
+              <h1 class="title is-spaced">
+                  <img src="./cog-title-text.png" alt="">
               </h1>
               <h2 class="subtitle">
-                Some short description
+                 Leveling up Mathematics and English Language in underperforming students
               </h2>
             </div>
           </div>
@@ -68,8 +69,8 @@
 
 <script>
 
-import SponsorsList from './../components/SponsorsList.vue'
-import { allSponsors } from './../data/sponsors.js'
+import SponsorsList from './../../components/SponsorsList.vue'
+import { allSponsors } from './../../data/sponsors.js'
 
 export default {
     components: {
@@ -81,10 +82,15 @@ export default {
         }
     },
     mounted: function() {
-        this.allSponsors = allSponsors
+        this.allSponsors = allSponsors;
     }
 }
 </script>
 
 <style lang="scss">
+.background--cog-hero {
+    background: #4C86A8; /* fallback for old browsers */
+    background: -webkit-linear-gradient(141deg, #4C86A8 , #AF9164); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(-135deg, #4C86A8 , #AF9164); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 </style>
