@@ -1,10 +1,15 @@
 <template lang="html">
   <header>
 
-      <nav class="nav">
+      <nav class="nav has-shadow">
         <div class="nav-left">
           <a class="nav-item">
-            <h1 class="title is-h1">Benab</h1>
+            <h1 class="title is-h1">
+                <router-link :to="{ name: 'HomePage' }">
+                    The Benab Foundation
+                </router-link>
+
+            </h1>
           </a>
         </div>
 
