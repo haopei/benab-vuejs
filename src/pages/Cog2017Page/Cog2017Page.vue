@@ -8,7 +8,22 @@
                   <img src="./cog-title-text.png" alt="">
               </h1>
               <h2 class="subtitle">
-                 Leveling up Mathematics and English Language in underperforming students
+                  <h2>Make this carnival and education</h2>
+                 Leveling up Mathematics and English Language in underperforming students <br>
+                 <ul>
+                     <li>photos of year 1, 2, 3, 4</li>
+                     <li>estimation of improvements</li>
+                     <li>honorable mentions (special thank yous)</li>
+                     <li>Donors per year</li>
+                 </ul>
+                 <br>
+                 <ul>
+                    <h2>Thank you page</h2>
+                     <li>Jennifer Cumberbach: big supporter </li>
+                     <li>carryl: loyal sponsor</li>
+                     <li>Volunteers</li>
+                     <li>Churches</li>
+                 </ul>
               </h2>
             </div>
           </div>
@@ -16,9 +31,18 @@
 
         <section class="section">
             <div class="container">
-                <h2 class="title">Overview</h2>
+
                 <div class="content">
-                    <p>Brief introduction to the benab foundation</p>
+                    <div class="columns">
+                        <div class="column">
+                            <h2 class="title">Overview</h2>
+                            <p>Since 2013 [citation required], we have connected with the schools, students, volunteers and sponsors to run our signature effort, The Cognitive Initiative. In this initiative, volunteer tutors (screened to be top CSEC performers either recently or in the past) attend class at Queen's College to level up Mathematics and English Language in students who are recruited from under-privileged or under-performing schools.</p>
+                        </div>
+                        <div class="column">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Bh6PFNfveac" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -49,21 +73,10 @@
                 <h2 class="title">Gallery</h2>
                 [insert gallery here]
             </div>
-
         </section>
 
         <sponsors-list :sponsors="allSponsors"></sponsors-list>
 
-        <div class="requirements">
-            <ul>
-                <li>Hero</li>
-                <li>overview</li>
-                <li>Enetworks Video</li>
-                <li>Stats</li>
-                <li>sponsors</li>
-                <li>Volunteer</li>
-            </ul>
-        </div>
     </div>
 </template>
 

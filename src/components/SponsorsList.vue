@@ -3,6 +3,7 @@
       <div class="container">
         <h1 class="title">Sponsors</h1>
         <h3 class="subtitle">Our gratitude to our sponsors who make it happen</h3>
+        <p>List sponsors by year</p>
         <pre>{{ sponsors }}</pre>
       </div>
 

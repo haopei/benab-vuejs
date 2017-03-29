@@ -23,6 +23,12 @@
         <div class="container">
           <h2 class="title">Our Team</h2>
           [list of core team]
+          <ul>
+              <li>name, photo of team</li>
+              <li>age</li>
+              <li>fun fact</li>
+              <li>credentials</li>
+          </ul>
         </div>
       </section>
 

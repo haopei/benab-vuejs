@@ -7,7 +7,7 @@
     </figure>
     <div class="media-content">
       <div class="content">
-            <em>{{ testimonial.quote }}</em>""
+          "<em>{{ testimonial.quote }}</em>""
           <br>
           <strong>{{ testimonial.name }}</strong>
           <br>
