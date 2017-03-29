@@ -4,6 +4,8 @@
           <h2 class="subtitle is-2">Sponsors</h2>
           <div class="sponsor-list-by-year-container">
 
+              <hr>
+
               <div class="sponsor-list--by-year">
                   <div class="columns">
                       <div class="column is-2">
@@ -18,6 +20,7 @@
                       </div>
                   </div>
               </div>
+              <hr>
 
               <div class="sponsor-list--by-year">
                   <div class="columns">
@@ -33,6 +36,7 @@
                       </div>
                   </div>
               </div>
+              <hr>
 
               <div class="sponsor-list--by-year">
                   <div class="columns">
@@ -48,6 +52,7 @@
                       </div>
                   </div>
               </div>
+              <hr>
 
               <div class="sponsor-list--by-year">
                   <div class="columns">
@@ -63,6 +68,7 @@
                       </div>
                   </div>
               </div>
+              <hr>
 
               <div class="sponsor-list--by-year">
                   <div class="columns">
@@ -78,6 +84,7 @@
                       </div>
                   </div>
               </div>
+              <hr>
           </div>
       </div>
     </section>
