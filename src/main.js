@@ -5,6 +5,7 @@ import App from './App.vue'
 // Pages
 import AboutPage from './pages/AboutPage.vue'
 import Cog2017Page from './pages/Cog2017Page/Cog2017Page.vue'
+import ContactPage from './pages/ContactPage.vue'
 import GetInvolvedPage from './pages/GetInvolvedPage.vue'
 import HomePage from './pages/HomePage.vue'
 import MembershipPage from './pages/MembershipPage.vue'
@@ -24,6 +25,7 @@ const routes = [
         { path: 'cognitive-initiative-2017', component: Cog2017Page, name: 'Cog2017Page'}
     ]},
     { path: '/about', component: AboutPage, name: 'AboutPage' },
+    { path: '/contact', component: ContactPage, name: 'ContactPage' },
     { path: '/get-involved', component: GetInvolvedPage, name: 'GetInvolvedPage', children: [
       { path: '/volunteer', component: VolunteerPage, name: 'VolunteerPage' },
       { path: '/sponsor', component: SponsorPage, name: 'SponsorPage' },
