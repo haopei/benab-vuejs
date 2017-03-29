@@ -2,25 +2,82 @@
     <section class="section is-medium">
       <div class="container">
           <h2 class="subtitle is-2">Sponsors</h2>
-          <div class="sponsor-list-by-year">
-              <h4 class="subtitle is-4">2017</h4>
-              {{cogSponsors2017}}
-          </div>
-          <div class="sponsor-list-by-year">
-              <h4 class="subtitle is-4">2016</h4>
-              {{cogSponsors2016}}
-          </div>
-          <div class="sponsor-list-by-year">
-              <h4 class="subtitle is-4">2015</h4>
-              {{cogSponsors2015}}
-          </div>
-          <div class="sponsor-list-by-year">
-              <h4 class="subtitle is-4">2014</h4>
-              {{cogSponsors2014}}
-          </div>
-          <div class="sponsor-list-by-year">
-              <h4 class="subtitle is-4">2013</h4>
-              {{cogSponsors2013}}
+          <div class="sponsor-list-by-year-container">
+
+              <div class="sponsor-list--by-year">
+                  <div class="columns">
+                      <div class="column is-2">
+                          <h4 class="subtitle is-4">2017</h4>
+                      </div>
+                      <div class="column">
+                          <div class="columns">
+                              <div v-for="sponsor in cogSponsors2017" class="sponsor-item column">
+                                  <img :src="sponsor.image" :alt="sponsor.name">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="sponsor-list--by-year">
+                  <div class="columns">
+                      <div class="column is-2">
+                          <h4 class="subtitle is-4">2016</h4>
+                      </div>
+                      <div class="column">
+                          <div class="columns">
+                              <div v-for="sponsor in cogSponsors2016" class="sponsor-item column">
+                                  <img :src="sponsor.image" :alt="sponsor.name">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="sponsor-list--by-year">
+                  <div class="columns">
+                      <div class="column is-2">
+                          <h4 class="subtitle is-4">2015</h4>
+                      </div>
+                      <div class="column">
+                          <div class="columns">
+                              <div v-for="sponsor in cogSponsors2015" class="sponsor-item column">
+                                  <img :src="sponsor.image" :alt="sponsor.name">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="sponsor-list--by-year">
+                  <div class="columns">
+                      <div class="column is-2">
+                          <h4 class="subtitle is-4">2014</h4>
+                      </div>
+                      <div class="column">
+                          <div class="columns">
+                              <div v-for="sponsor in cogSponsors2014" class="sponsor-item column">
+                                  <img :src="sponsor.image" :alt="sponsor.name">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="sponsor-list--by-year">
+                  <div class="columns">
+                      <div class="column is-2">
+                          <h4 class="subtitle is-4">2013</h4>
+                      </div>
+                      <div class="column">
+                          <div class="columns">
+                              <div v-for="sponsor in cogSponsors2013" class="sponsor-item column">
+                                  <img :src="sponsor.image" :alt="sponsor.name">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
           </div>
       </div>
     </section>
@@ -48,5 +105,9 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="scss" scoped>
+    h4 {
+        padding: 3.5rem 0;
+        font-size: 2rem;
+    }
 </style>

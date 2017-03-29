@@ -26,6 +26,11 @@ export const allCogSponsors = {
          {
               name: 'Western Union',
               contribution: 'Provided lunch for (n) volunteer tutors every day for (n) days.',
+              image: require('./static/churchs-128x128.png')
+          },
+         {
+              name: 'Western Union',
+              contribution: 'Provided lunch for (n) volunteer tutors every day for (n) days.',
               image: require('./static/western-union-128x128.png')
           }
     ],
