@@ -25,7 +25,7 @@ import SponsorsList from './../components/SponsorsList.vue'
 import CogPartial from './../components/CogPartial/CogPartial.vue'
 
 // Data Imports
-import { allSponsors } from './../data/sponsors.js'
+import { allSponsors } from './../data/sponsors.data.js'
 
 export default {
   components: {

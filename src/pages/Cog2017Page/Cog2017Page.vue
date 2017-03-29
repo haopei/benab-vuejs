@@ -70,7 +70,7 @@
 <script>
 
 import SponsorsList from './../../components/SponsorsList.vue'
-import { allSponsors } from './../../data/sponsors.js'
+import { allSponsors } from './../../data/sponsors.data.js'
 
 export default {
     components: {
