@@ -1,12 +1,31 @@
 <template lang="html">
-    <section class="section is-medium">
+    <section class="section is-medium partial--get-involved">
       <div class="container">
-        <div class="heading"><h1 class="title">Get Involved</h1></div>
-        <h2 class="subtitle">Be part of the magic</h2>
-        <div class="columns has-text-centered">
-            <div class="column"><h3 class="subtitle is-3">Become a Volunteer</h3></div>
-            <div class="column"><h3 class="subtitle is-3">Become a Sponsor</h3></div>
-            <div class="column"><h3 class="subtitle is-3">Join Our Team</h3></div>
+        <div class="heading"><h2 class="title is-2">Get Involved</h2></div>
+        <h6 class="subtitle is-h6">Be part of the magic</h6>
+        <hr>
+        <div class="columns">
+            <div class="column">
+                <h4 class="subtitle is-4">Become a Volunteer</h4>
+                <img :src="require('./../assets/collage.jpg')" alt="">
+                <p class="small">It will be the one of the most rewarding experiences in your life</p>
+                <br>
+                <router-link :to="{name: 'VolunteerPage'}" class="button is-primary is-outlined is-inverted">Volunteer</router-link>
+            </div>
+            <div class="column">
+                <h4 class="subtitle is-4">Become a Sponsor</h4>
+                <img :src="require('./../assets/collage.jpg')" alt="">
+                <p class="small">It will be the one of the most rewarding experiences in your life</p>
+                <br>
+                <router-link :to="{name: 'SponsorPage'}" class="button is-primary is-outlined is-inverted">Sponsor Our Initiatives</router-link>
+            </div>
+            <div class="column">
+                <h4 class="subtitle is-4">Join Our Team</h4>
+                <img :src="require('./../assets/collage.jpg')" alt="">
+                <p class="small">It will be the one of the most rewarding experiences in your life</p>
+                <br>
+                <router-link :to="{name: 'MembershipPage'}" class="button is-primary is-outlined is-inverted">Join Our Team</router-link>
+            </div>
         </div>
       </div>
     </section>
@@ -17,5 +36,17 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
+.partial--get-involved {
+    background: #477890;
+    color: #fff;
+}
+
+.title, .subtitle, p {
+    color: #fff;
+}
+
+p {
+    opacity: 0.9;
+}
 </style>
