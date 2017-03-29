@@ -75,27 +75,18 @@
             </div>
         </section>
 
-        <sponsors-list :sponsors="allSponsors"></sponsors-list>
+        <sponsors-list></sponsors-list>
 
     </div>
 </template>
 
 <script>
 
-import SponsorsList from './../../components/SponsorsList.vue'
-import { allSponsors } from './../../data/sponsors.data.js'
+import SponsorsList from './../../components/SponsorsList/SponsorsList.vue'
 
 export default {
     components: {
         SponsorsList
-    },
-    data() {
-        return {
-            allSponsors: []
-        }
-    },
-    mounted: function() {
-        this.allSponsors = allSponsors;
     }
 }
 </script>
