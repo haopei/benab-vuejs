@@ -5,7 +5,7 @@
           <div class="hero-body">
             <div class="container">
               <h1 class="title is-spaced">
-                  <img src="./cog-title-text.png" alt="">
+                  <img src="./static/cog-title-text.png" alt="">
               </h1>
               <h2 class="subtitle page-cog-2017__quirks--left-padding">
                   <small>
