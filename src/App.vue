@@ -30,4 +30,8 @@ export default {
         margin-bottom: 1rem;
     }
 
+    .hide-me {
+        display: none;
+    }
+
 </style>
