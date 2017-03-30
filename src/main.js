@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
 import App from './App.vue'
 
 // Pages
@@ -17,6 +18,7 @@ import VolunteerPage from './pages/VolunteerPage.vue'
 import AllProjectsList from './components/AllProjectsList/AllProjectsList.vue'
 
 Vue.use(VueRouter)
+Vue.use(VueAwesomeSwiper)
 
 const routes = [
     { path: '/', component: HomePage, name: 'HomePage' },
