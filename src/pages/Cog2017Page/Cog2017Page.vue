@@ -73,9 +73,16 @@
         </section>
 
         <section class="section">
-            <div class="container">
+            <div class="container-fluid">
                 <h2 class="title">Gallery</h2>
-                [insert gallery here]
+                <swiper :options="swiperOptions">
+                    <swiper-slide v-for="image in galleryImages" :key="image.src">
+                        <img :src="image.src" alt="" width="300" height="300">
+                    </swiper-slide>
+                    <div class="swiper-pagination" slot="pagination"></div>
+                    <div class="swiper-button-prev" slot="button-prev"></div>
+                    <div class="swiper-button-next" slot="button-next"></div>
+                </swiper>
             </div>
         </section>
 
@@ -89,6 +96,8 @@
 
 import SponsorsList from './../../components/SponsorsList/SponsorsList.vue'
 import GetInvolved from './../../components/GetInvolved.vue'
+import { galleryImages } from './data.js'
+import { swiper, swiperSlide } from 'vue-awesome-swiper'
 import CogFeaturesTabs from './CogFeaturesTabs.vue'
 
 export default {
@@ -99,6 +108,24 @@ export default {
         swiper,
         swiperSlide
     },
+    data() {
+        return {
+            galleryImages: [],
+            swiperOptions: {
+                pagination: '.swiper-pagination',
+                paginationClickable: true,
+                nextButton: '.swiper-button-next',
+                prevButton: '.swiper-button-prev',
+                slidesPerView: 'auto',
+                spaceBetween: 10,
+                freeMode: true,
+                parallax: true,
+                speed: 600,
+            }
+        }
+    },
+    mounted() {
+        this.galleryImages = galleryImages;
     }
 }
 </script>
@@ -128,5 +155,15 @@ export default {
     &__students {
 
     }
+}
+
+.swiper-slide {
+  width: 80%;
+}
+.swiper-slide:nth-child(2n) {
+  width: 60%;
+}
+.swiper-slide:nth-child(3n) {
+  width: 40%;
 }
 </style>
