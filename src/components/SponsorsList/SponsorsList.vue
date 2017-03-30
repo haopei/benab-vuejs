@@ -37,54 +37,60 @@
                   </div>
               </div>
               <hr>
+              
+              <button @click="showMoreSponsors" class="button is-link">Show All Sponsors</button>
 
-              <div class="sponsor-list--by-year">
-                  <div class="columns">
-                      <div class="column is-2">
-                          <h4 class="subtitle is-4">2015</h4>
-                      </div>
-                      <div class="column">
-                          <div class="columns">
-                              <div v-for="sponsor in cogSponsors2015" class="sponsor-item column">
-                                  <img :src="sponsor.image" :alt="sponsor.name">
+              <div v-if="showAllSponsors">
+                  <div class="sponsor-list--by-year">
+                      <div class="columns">
+                          <div class="column is-2">
+                              <h4 class="subtitle is-4">2015</h4>
+                          </div>
+                          <div class="column">
+                              <div class="columns">
+                                  <div v-for="sponsor in cogSponsors2015" class="sponsor-item column">
+                                      <img :src="sponsor.image" :alt="sponsor.name">
+                                  </div>
                               </div>
                           </div>
                       </div>
                   </div>
-              </div>
-              <hr>
+                  <hr>
 
-              <div class="sponsor-list--by-year">
-                  <div class="columns">
-                      <div class="column is-2">
-                          <h4 class="subtitle is-4">2014</h4>
-                      </div>
-                      <div class="column">
-                          <div class="columns">
-                              <div v-for="sponsor in cogSponsors2014" class="sponsor-item column">
-                                  <img :src="sponsor.image" :alt="sponsor.name">
+                  <div class="sponsor-list--by-year">
+                      <div class="columns">
+                          <div class="column is-2">
+                              <h4 class="subtitle is-4">2014</h4>
+                          </div>
+                          <div class="column">
+                              <div class="columns">
+                                  <div v-for="sponsor in cogSponsors2014" class="sponsor-item column">
+                                      <img :src="sponsor.image" :alt="sponsor.name">
+                                  </div>
                               </div>
                           </div>
                       </div>
                   </div>
-              </div>
-              <hr>
+                  <hr>
 
-              <div class="sponsor-list--by-year">
-                  <div class="columns">
-                      <div class="column is-2">
-                          <h4 class="subtitle is-4">2013</h4>
-                      </div>
-                      <div class="column">
-                          <div class="columns">
-                              <div v-for="sponsor in cogSponsors2013" class="sponsor-item column">
-                                  <img :src="sponsor.image" :alt="sponsor.name">
+                  <div class="sponsor-list--by-year">
+                      <div class="columns">
+                          <div class="column is-2">
+                              <h4 class="subtitle is-4">2013</h4>
+                          </div>
+                          <div class="column">
+                              <div class="columns">
+                                  <div v-for="sponsor in cogSponsors2013" class="sponsor-item column">
+                                      <img :src="sponsor.image" :alt="sponsor.name">
+                                  </div>
                               </div>
                           </div>
                       </div>
                   </div>
+                  <hr>
+
               </div>
-              <hr>
+
           </div>
       </div>
     </section>
@@ -99,7 +105,8 @@ export default {
             cogSponsors2014: [],
             cogSponsors2015: [],
             cogSponsors2016: [],
-            cogSponsors2017: []
+            cogSponsors2017: [],
+            showAllSponsors: false
         }
     },
     mounted: function() {
@@ -108,6 +115,12 @@ export default {
         this.cogSponsors2015 = allCogSponsors.year2015;
         this.cogSponsors2016 = allCogSponsors.year2016;
         this.cogSponsors2017 = allCogSponsors.year2017;
+    },
+    methods: {
+        showMoreSponsors(e) {
+            this.showAllSponsors = true;
+            e.target.classList.add('hide-me');
+        }
     }
 }
 </script>
