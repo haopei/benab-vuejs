@@ -32,24 +32,9 @@
             </div>
         </section>
 
-        <section class="section">
-            <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <h4 class="title is-4">Queen's College</h4>
-                        <p>The initiative takes place at Queen's College where students get to experience both its environment and culture.</p>
-                    </div>
-                    <div class="column">
-                        <h4 class="title is-4">Tailored Curriculum</h4>
-                        <p>Students are first assessed and then grouped by competencies so that tailored lessons are available.</p>
-                    </div>
-                    <div class="column">
-                        <h4 class="title is-4">Top Performing Volunteers</h4>
-                        <p>Volunteer tutors must have a Grade I in both Mathematics and English Language, in addition to other favourable qualities.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <cog-features-tabs></cog-features-tabs>
+        <get-involved></get-involved>
+
 
         <section class="section page-cog-2017__students">
             <div class="container">
@@ -104,11 +89,16 @@
 
 import SponsorsList from './../../components/SponsorsList/SponsorsList.vue'
 import GetInvolved from './../../components/GetInvolved.vue'
+import CogFeaturesTabs from './CogFeaturesTabs.vue'
 
 export default {
     components: {
+        CogFeaturesTabs,
+        GetInvolved,
         SponsorsList,
-        GetInvolved
+        swiper,
+        swiperSlide
+    },
     }
 }
 </script>
