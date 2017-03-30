@@ -10,22 +10,22 @@
             </div>
             <div class="tabs__content has-text-centered">
                 <div v-if="tabs.active == 'tailored'" class="">
-                    <h2 class="subtitle is-2">Lessons Across All Levels</h2>
                     <img :src="require('./static/tabs/tailor.jpg')" alt="">
                     <br><br>
+                    <h4 class="subtitle is-4">Lessons Across All Levels</h4>
                     <p>Our students are assessed and placed into specific classrooms <br> where lessons are designed to patch and strengthen their <br> understanding of core concepts.</p>
                 </div>
                 <div v-if="tabs.active == 'volunteers'" class="">
-                    <h2 class="subtitle is-2">Crème de la crème Volunteers</h2>
                     <img :src="require('./static/tabs/volunteers.jpg')" alt="">
                     <br><br>
+                    <h4 class="subtitle is-4">Crème de la crème Volunteers</h4>
                     <p>Our students are assessed and placed into specific classrooms <br> where lessons are designed to patch and strengthen their <br> understanding of core concepts.</p>
                 </div>
                 <div v-if="tabs.active == 'focused-mentorship'" class="">
-                    <h2 class="subtitle is-2">One-on-one</h2>
                     <img :src="require('./static/tabs/one-on-one.jpg')" alt="">
                     <br><br>
-                    <p>Our volunteers are deployed to the classroom in teams. This means there is more attention per student. </p>
+                    <h4 class="subtitle is-4">1-on-1 Attention on Demand</h4>
+                    <p>Our volunteers are deployed to the classroom in teams <br> and continuously assess our students understanding. <br> This means there is more attention per student. </p>
                 </div>
             </div>
 
