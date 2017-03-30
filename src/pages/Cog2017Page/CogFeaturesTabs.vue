@@ -1,7 +1,7 @@
 <template lang="html">
     <section class="section ">
         <div class="container">
-            <div class="tabs is-centered is-fullwidth is-large">
+            <div class="tabs is-centered is-fullwidth is-large is-boxed">
               <ul>
                 <li class="is-active"><a @click="handleTabClick" data-tab="tailored">Tailored Curriculum</a></li>
                 <li><a @click="handleTabClick" data-tab="volunteers">Top Volunteers</a></li>
