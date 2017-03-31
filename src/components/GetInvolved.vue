@@ -1,5 +1,5 @@
 <template lang="html">
-    <section class="section is-medium partial--get-involved">
+    <section class="section partial--get-involved">
       <div class="container">
         <div class="heading"><h2 class="title is-2">Get Involved</h2></div>
         <h6 class="subtitle is-h6">Be part of the magic</h6>
