@@ -9,7 +9,9 @@
               </h1>
               <h2 class="subtitle page-cog-2017__quirks--left-padding">
                   <small>
-                      Every year, since 2013, we recruit 30 top-performing volunteers <br> to teach Mathematics and English to 100 students <br> from under-performing schools.
+                      Guyana's CSEC pass-rates for Mathematics and English are poor. <br>
+                      The Cognitive Initiative tackles this problem by recruiting top CSEC <br>
+                      performers to teach students who are at-risk of failing.
                   </small>
               </h2>
             </div>
@@ -35,9 +37,17 @@
             </div>
         </section>
 
-        <cog-features-tabs></cog-features-tabs>
-        <get-involved></get-involved>
+        <section class="section">
+            <div class="container">
+                <div class="heading">
+                    <h2 class="title is-2">How We Teach</h2>
+                </div>
+                <cog-features-tabs></cog-features-tabs>
+            </div>
+        </section>
 
+
+        <get-involved></get-involved>
 
         <section class="section page-cog-2017__students">
             <div class="container">
