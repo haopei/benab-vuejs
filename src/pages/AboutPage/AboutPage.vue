@@ -45,13 +45,12 @@
             </div>
             <div class="level-right">
               <div class="level-item">
-                <router-link :to="{name: 'MembershipPage'}" class="button is-link">Join The Team</router-link>
+                <router-link :to="{name: 'GetInvolvedMembershipPage'}" class="button is-link">Join The Team</router-link>
               </div>
             </div>
           </div>
           <hr>
-
-
+          
           <!-- Core Team -->
           <div class="columns">
               <div class="column">

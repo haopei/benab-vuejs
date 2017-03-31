@@ -8,12 +8,12 @@ import AboutPage from './pages/AboutPage/AboutPage.vue'
 import Cog2017Page from './pages/Cog2017Page/Cog2017Page.vue'
 import ContactPage from './pages/ContactPage.vue'
 import GetInvolvedParent from './pages/GetInvolvedParent.vue'
-import GetInvolvedChoose from './pages/GetInvolvedChoose.vue'
+import GetInvolvedChoosePage from './pages/GetInvolvedChoosePage.vue'
 import HomePage from './pages/HomePage.vue'
-import MembershipPage from './pages/MembershipPage.vue'
+import GetInvolvedMembershipPage from './pages/GetInvolvedMembershipPage.vue'
 import ProjectsPage from './pages/ProjectsPage.vue'
-import SponsorPage from './pages/SponsorPage.vue'
-import VolunteerPage from './pages/VolunteerPage.vue'
+import GetInvolvedSponsorsPage from './pages/GetInvolvedSponsorsPage.vue'
+import GetInvolvedVolunteerPage from './pages/GetInvolvedVolunteerPage.vue'
 
 // Page Partials
 import AllProjectsList from './components/AllProjectsList/AllProjectsList.vue'
@@ -30,10 +30,10 @@ const routes = [
     { path: '/about', component: AboutPage, name: 'AboutPage' },
     { path: '/contact', component: ContactPage, name: 'ContactPage' },
     { path: '/get-involved', component: GetInvolvedParent, name: 'GetInvolvedParent', children: [
-      { path: 'choose', component: GetInvolvedChoose, name: 'GetInvolvedChoose' },
-      { path: 'volunteer', component: VolunteerPage, name: 'VolunteerPage' },
-      { path: 'sponsor', component: SponsorPage, name: 'SponsorPage' },
-      { path: 'membership', component: MembershipPage, name: 'MembershipPage' }
+      { path: 'choose', component: GetInvolvedChoosePage, name: 'GetInvolvedChoosePage' },
+      { path: 'volunteer', component: GetInvolvedVolunteerPage, name: 'GetInvolvedVolunteerPage' },
+      { path: 'sponsor', component: GetInvolvedSponsorsPage, name: 'GetInvolvedSponsorsPage' },
+      { path: 'membership', component: GetInvolvedMembershipPage, name: 'GetInvolvedMembershipPage' }
     ]}
 ]
 

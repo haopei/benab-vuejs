@@ -11,21 +11,21 @@
                 <img :src="require('./../assets/collage.jpg')" alt="">
                 <!-- <p class="small">It will be the one of the most rewarding experiences in your life</p> -->
                 <br>
-                <router-link :to="{name: 'VolunteerPage'}" class="button is-primary is-outlined is-inverted">Volunteer</router-link>
+                <router-link :to="{name: 'GetInvolvedVolunteerPage'}" class="button is-primary is-outlined is-inverted">Volunteer</router-link>
             </div>
             <div class="column">
                 <h4 class="subtitle is-4">Become a Sponsor</h4>
                 <img :src="require('./../assets/collage.jpg')" alt="">
                 <!-- <p class="small">It will be the one of the most rewarding experiences in your life</p> -->
                 <br>
-                <router-link :to="{name: 'SponsorPage'}" class="button is-primary is-outlined is-inverted">Sponsor Our Initiatives</router-link>
+                <router-link :to="{name: 'GetInvolvedSponsorsPage'}" class="button is-primary is-outlined is-inverted">Sponsor Our Initiatives</router-link>
             </div>
             <div class="column">
                 <h4 class="subtitle is-4">Join Our Team</h4>
                 <img :src="require('./../assets/collage.jpg')" alt="">
                 <!-- <p class="small">It will be the one of the most rewarding experiences in your life</p> -->
                 <br>
-                <router-link :to="{name: 'MembershipPage'}" class="button is-primary is-outlined is-inverted">Join Our Team</router-link>
+                <router-link :to="{name: 'GetInvolvedMembershipPage'}" class="button is-primary is-outlined is-inverted">Join Our Team</router-link>
             </div>
         </div>
       </div>

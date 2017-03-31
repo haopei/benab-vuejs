@@ -31,7 +31,7 @@
             <router-link :to="{ name: 'ContactPage' }" class="nav-item is-tab"><a @click="handleLinkClick">Contact</a></router-link>
 
           <span class="nav-item">
-            <router-link :to="{ name: 'GetInvolvedChoose' }" class="nav-item">
+            <router-link :to="{ name: 'GetInvolvedChoosePage' }" class="nav-item">
               <a class="button is-primary" @click="handleLinkClick">
                 <!-- <span class="icon">
                   <i class="fa fa-download"></i>
