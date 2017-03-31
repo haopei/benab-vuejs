@@ -1,5 +1,6 @@
 <template lang="html">
-    <div class="page page--get-involved">
+
+    <div class="get-involved-choose">
         <section class="hero is-medium is-primary is-bold">
           <div class="hero-body">
             <div class="container">
@@ -38,24 +39,6 @@
             </div>
         </section>
 
-        <section class="section">
-            <div class="container">
-                <h2></h2>
-            </div>
-        </section>
-
-        <section class="section">
-            <div class="container">
-                <h2></h2>
-            </div>
-        </section>
-
-        <section class="section">
-            <div class="container">
-                <h2></h2>
-            </div>
-        </section>
-
         <div class="requirements">
             <ul>
                 <li>Hero</li>
@@ -63,8 +46,8 @@
                 <li>Link three ways to get involved: volunteering, sponsorship, membership</li>
             </ul>
         </div>
-        <router-view></router-view>
     </div>
+
 </template>
 
 <script>
@@ -72,5 +55,5 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="css">
 </style>

@@ -7,7 +7,8 @@ import App from './App.vue'
 import AboutPage from './pages/AboutPage/AboutPage.vue'
 import Cog2017Page from './pages/Cog2017Page/Cog2017Page.vue'
 import ContactPage from './pages/ContactPage.vue'
-import GetInvolvedPage from './pages/GetInvolvedPage.vue'
+import GetInvolvedParent from './pages/GetInvolvedParent.vue'
+import GetInvolvedChoose from './pages/GetInvolvedChoose.vue'
 import HomePage from './pages/HomePage.vue'
 import MembershipPage from './pages/MembershipPage.vue'
 import ProjectsPage from './pages/ProjectsPage.vue'
@@ -28,10 +29,11 @@ const routes = [
     ]},
     { path: '/about', component: AboutPage, name: 'AboutPage' },
     { path: '/contact', component: ContactPage, name: 'ContactPage' },
-    { path: '/get-involved', component: GetInvolvedPage, name: 'GetInvolvedPage', children: [
-      { path: '/volunteer', component: VolunteerPage, name: 'VolunteerPage' },
-      { path: '/sponsor', component: SponsorPage, name: 'SponsorPage' },
-      { path: '/membership', component: MembershipPage, name: 'MembershipPage' }
+    { path: '/get-involved', component: GetInvolvedParent, name: 'GetInvolvedParent', children: [
+      { path: 'choose', component: GetInvolvedChoose, name: 'GetInvolvedChoose' },
+      { path: 'volunteer', component: VolunteerPage, name: 'VolunteerPage' },
+      { path: 'sponsor', component: SponsorPage, name: 'SponsorPage' },
+      { path: 'membership', component: MembershipPage, name: 'MembershipPage' }
     ]}
 ]
 
