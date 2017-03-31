@@ -15,15 +15,24 @@
 
         <section class="section">
             <div class="container">
-                <div class="columns has-text-centered">
+                <div class="columns">
                     <div class="column">
                         <h4 class="subtitle is-4">Volunteer</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <br>
+                        <router-link :to="{name: 'VolunteerPage'}" class="button is-primary">Volunteer Now</router-link>
                     </div>
                     <div class="column">
                         <h4 class="subtitle is-4">Donate</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <br>
+                        <router-link :to="{name: 'SponsorPage'}" class="button is-primary">Donate Now</router-link>
                     </div>
                     <div class="column">
                         <h4 class="subtitle is-4">Join Our Team</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <br>
+                        <router-link :to="{name: 'MembershipPage'}" class="button is-primary">Join Now</router-link>
                     </div>
                 </div>
             </div>
