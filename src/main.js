@@ -4,7 +4,7 @@ import VueAwesomeSwiper from 'vue-awesome-swiper'
 import App from './App.vue'
 
 // Pages
-import AboutPage from './pages/AboutPage.vue'
+import AboutPage from './pages/AboutPage/AboutPage.vue'
 import Cog2017Page from './pages/Cog2017Page/Cog2017Page.vue'
 import ContactPage from './pages/ContactPage.vue'
 import GetInvolvedPage from './pages/GetInvolvedPage.vue'
