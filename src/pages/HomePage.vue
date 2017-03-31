@@ -1,17 +1,14 @@
 <template>
   <div class="page page--home">
-
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-1">Mobilizing Youths For Good</h1>
+        <h4 class="subtitle is-4">We are a small group of folks who identify education-related problems and solving them.</h4>
+      </div>
+    </section>
     <cog-partial></cog-partial>
-
-    <!-- <section class="section">
-        <div class="container">
-            <h2>Our Impact</h2>
-        </div>
-    </section> -->
-
     <get-involved></get-involved>
     <sponsors-list></sponsors-list>
-
   </div>
 </template>
 
