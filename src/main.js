@@ -7,13 +7,15 @@ import App from './App.vue'
 import AboutPage from './pages/AboutPage/AboutPage.vue'
 import Cog2017Page from './pages/Cog2017Page/Cog2017Page.vue'
 import ContactPage from './pages/ContactPage.vue'
-import GetInvolvedParent from './pages/GetInvolvedParent.vue'
 import GetInvolvedChoosePage from './pages/GetInvolvedChoosePage.vue'
-import HomePage from './pages/HomePage.vue'
 import GetInvolvedMembershipPage from './pages/GetInvolvedMembershipPage.vue'
-import ProjectsPage from './pages/ProjectsPage.vue'
+import GetInvolvedParent from './pages/GetInvolvedParent.vue'
 import GetInvolvedSponsorsPage from './pages/GetInvolvedSponsorsPage.vue'
 import GetInvolvedVolunteerPage from './pages/GetInvolvedVolunteerPage.vue'
+import HomePage from './pages/HomePage.vue'
+import ProjectsPage from './pages/ProjectsPage.vue'
+
+
 
 // Page Partials
 import AllProjectsList from './components/AllProjectsList/AllProjectsList.vue'
