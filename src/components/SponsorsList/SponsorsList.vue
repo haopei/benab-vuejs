@@ -1,5 +1,5 @@
 <template lang="html">
-    <section class="section is-medium">
+    <section class="section">
       <div class="container">
           <div class="heading">
                 <h2 class="subtitle is-2">Sponsors</h2>
