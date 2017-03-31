@@ -1,7 +1,11 @@
 <template lang="html">
     <section class="section is-medium">
       <div class="container">
-          <h2 class="subtitle is-2">Sponsors</h2>
+          <div class="heading">
+                <h2 class="subtitle is-2">Sponsors</h2>
+          </div>
+
+          <h6 class="subtitle is-6">Or as we refer to them — 'Guardian Angels'</h6>
           <div class="sponsor-list-by-year-container">
 
               <hr>
@@ -37,7 +41,7 @@
                   </div>
               </div>
               <hr>
-              
+
               <button @click="showMoreSponsors" class="button is-link">Show All Sponsors</button>
 
               <div v-if="showAllSponsors">

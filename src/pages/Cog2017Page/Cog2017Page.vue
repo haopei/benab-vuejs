@@ -21,7 +21,10 @@
                 <div class="content">
                     <div class="columns">
                         <div class="column">
-                            <h2 class="title">Overview</h2>
+                            <div class="heading">
+                                <h2 class="title is-2">Overview</h2>
+                            </div>
+
                             <p>Since 2013 [citation required], we have connected with the schools, students, volunteers and sponsors to run our signature effort, The Cognitive Initiative. In this initiative, volunteer tutors (screened to be top CSEC performers either recently or in the past) attend class at Queen's College to level up Mathematics and English Language in students who are recruited from under-privileged or under-performing schools.</p>
                         </div>
                         <div class="column">
