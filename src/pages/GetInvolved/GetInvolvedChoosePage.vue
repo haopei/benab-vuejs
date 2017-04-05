@@ -1,23 +1,13 @@
 <template lang="html">
 
     <div class="get-involved-choose">
-        <section class="hero hero--get-involved-choose is-large">
-          <div class="hero-body">
-            <div class="container">
-              <h1 class="title is-1 hero--get-involved-choose__title">
-                <!-- Get Involved -->
-              </h1>
-              <h2 class="subtitle is-2 hero--get-involved-choose__subtitle">
-                  <!-- Some inspirational sentence, or something. -->
-              </h2>
-            </div>
-          </div>
-        </section>
-
         <section class="section">
-            <div class="container">
-                <h1 class="title is-1">Get involved</h1>
-            </div>
+        <div class="container">
+        <div class="has-text-centered">
+        <h1 class="title is-1">Get Involved</h1>
+            <p>Work together with us; we will transform education together.</p>
+        </div>
+        </div>
         </section>
 
         <section class="section">
@@ -78,4 +68,6 @@ export default {
         color: #fff;
     }
 }
+
+
 </style>
