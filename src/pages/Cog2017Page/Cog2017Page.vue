@@ -26,7 +26,6 @@
                             <div class="heading">
                                 <h2 class="title is-2">Overview</h2>
                             </div>
-
                             <p>Since 2013 [citation required], we have connected with the schools, students, volunteers and sponsors to run our signature effort, The Cognitive Initiative. In this initiative, volunteer tutors (screened to be top CSEC performers either recently or in the past) attend class at Queen's College to level up Mathematics and English Language in students who are recruited from under-privileged or under-performing schools.</p>
                         </div>
                         <div class="column">
@@ -46,46 +45,25 @@
             </div>
         </section>
 
-
-        <get-involved></get-involved>
-
-        <section class="section page-cog-2017__students">
+        <section class="section page-cog-2017__schools">
             <div class="container">
-                <h2 class="title">Needs of the initiative</h2>
-                <h4 class="subtitle is-h4">[This is a checklist of things we need]</h4>
                 <div class="columns">
                     <div class="column">
-                        <ul>
-                            <li>360 meals for ~120 students for 30 days.</li>
-                            <li>Water and drinks for 30 days</li>
-                            <li>Some other thing</li>
-                            <li>Some other thing</li>
-                        </ul>
+                        <div class="heading">
+                            <h2 class="title is-2">Schools</h2>
+                        </div>
+                        <p>We select students from up to five schools. We make room for students who are underperforming or just looking to sharpen their knowledge.</p>
                     </div>
-
                     <div class="column">
-                        <ul>
-                            <li>30 Volunteer Tutors</li>
-                            <li>Some other thing</li>
-                            <li>Some other thing</li>
-                            <li>Some other thing</li>
-                        </ul>
-                    </div>
 
-                    <div class="column">
-                        <ul>
-                            <li>Some other thing</li>
-                            <li>Some other thing</li>
-                            <li>Some other thing</li>
-                            <li>Some other thing</li>
-                        </ul>
                     </div>
-
                 </div>
+
             </div>
+
         </section>
 
-        <section class="section">
+        <!-- <section class="section">
             <div class="container-fluid">
                 <h2 class="title">Gallery</h2>
                 <swiper :options="swiperOptions">
@@ -97,7 +75,7 @@
                     <div class="swiper-button-next" slot="button-next"></div>
                 </swiper>
             </div>
-        </section>
+        </section> -->
 
         <sponsors-list></sponsors-list>
         <get-involved></get-involved>
@@ -166,9 +144,11 @@ export default {
         // background: linear-gradient(to bottom, #E0EAFC , #CFDEF3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
 
-    &__students {
-
+    &__schools {
+        background: #f5f5f5;
     }
+
+
 }
 
 .swiper-slide {

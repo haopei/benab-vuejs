@@ -25,7 +25,7 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
             <div class="column">
-                <img :src="require('./point-at-benab.jpg')" alt="">
+                <img :src="require('./static/point-at-benab.jpg')" alt="">
             </div>
 
           </div>
@@ -50,25 +50,25 @@
             </div>
           </div>
           <hr>
-          
+
           <!-- Core Team -->
           <div class="columns">
               <div class="column">
-                  <img src="" alt="">
+                  <img :src="require('./static/saevion.jpg')" alt="">
                   <h4 class="title is-4">Saevion David-Longe</h4>
                   <h6 class="subtitle is-6">Role</h6>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
               </div>
 
               <div class="column">
-                  <img src="" alt="">
+                  <img :src="require('./static/larry.jpg')" alt="">
                   <h4 class="title is-4">Larry Carryl</h4>
                   <h6 class="subtitle is-6">Role</h6>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
               </div>
 
               <div class="column">
-                  <img src="" alt="">
+                  <img :src="require('./static/mkb.jpg')" alt="">
                   <h4 class="title is-4">Maryam K Bacchus</h4>
                   <h6 class="subtitle is-6">Public Relations Officer</h6>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -76,6 +76,7 @@
 
               <div class="column">
                   <img src="" alt="">
+                  <img :src="require('./static/benita.jpg')" alt="">
                   <h4 class="title is-4">Benita Davis</h4>
                   <h6 class="subtitle is-6">Role</h6>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
@@ -83,7 +84,7 @@
           </div>
 
           <!-- Members -->
-          <div class="columns">
+          <!-- <div class="columns">
             <div class="column">
                 <img src="" alt="">
                 <h4 class="title is-4">Daniella Sobers</h4>
@@ -108,7 +109,7 @@
                 <h4 class="title is-4">Someone Singh William</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
             </div>
-          </div>
+          </div> -->
 
         </div>
       </section>
