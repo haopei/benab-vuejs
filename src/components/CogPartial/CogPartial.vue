@@ -1,18 +1,12 @@
 <template lang="html">
-    <section class="section partial background--cog-hero has-text-centered is-large">
+    <section class="section partial background--cog-hero has-text-centered is-medium">
+
         <div class="container">
             <img src="./cog-title-text.png" alt="">
-            <h2 class="subtitle">Leveling up students who are preparing for their 3rd Form Exams</h2>
-            <router-link :to="{ name: 'Cog2017Page' }"><a class="button is-primary is-large">Learn More</a></router-link> <br>
-            <div class="padded-space"></div>
-            <button v-if="!showInvolvementOptions" class="button is-link" @click="handleClick">Get Involved</button>
-            <transition>
-            <div v-if="showInvolvementOptions" class="involvement-options">
-                <router-link :to="{ name: 'Cog2017Page' }"><a class="button is-primary is-inverted">Volunteer Tutor</a></router-link>
-                <router-link :to="{ name: 'Cog2017Page' }"><a class="button is-primary is-inverted">Donate</a></router-link>
-                <router-link :to="{ name: 'Cog2017Page' }"><a class="button is-primary is-inverted">Join Team</a></router-link>
-            </div>
-            </transition>
+            <br><br>
+            <p class="subtitle">Leveling up students in Mathematics and English</p>
+            <router-link :to="{ name: 'Cog2017Page' }"><a class="button is-primary is-large">Learn More</a></router-link>
+
         </div>
     </section>
 </template>
@@ -21,12 +15,7 @@
 export default {
     data() {
         return {
-            showInvolvementOptions: false
-        }
-    },
-    methods: {
-        handleClick(e) {
-            this.showInvolvementOptions = true;
+
         }
     }
 }
