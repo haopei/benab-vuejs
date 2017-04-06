@@ -1,18 +1,27 @@
 <template lang="html">
 
     <div class="get-involved-choose">
-        <section class="section">
-        <div class="container">
-        <div class="has-text-centered">
-        <h1 class="title is-1">Get Involved</h1>
-            <p>Work together with us; we will transform education together.</p>
-        </div>
-        </div>
+        <section class="hero hero--get-involved-choose is-medium">
+          <div class="hero-body">
+            <div class="container">
+                &nbsp;
+            </div>
+          </div>
         </section>
 
-        <section class="section">
+        <section class="section content-container">
             <div class="container">
-
+                <div class="columns">
+                    <div class="column">
+                        <div class="has-text-centered">
+                            <h1 class="title is-1">
+                              Get Involved
+                            </h1>
+                            <p class="subtitle">Work together with us; we will transform education together.</p>
+                            <br>
+                        </div>
+                    </div>
+                </div>
                 <div class="columns">
                     <div class="column">
                         <div class="box">
@@ -56,10 +65,20 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
+
+.hero {
+    background: #f5f5f5;
+}
+
+.content-container {
+    background: #4C86A8;
+    background: -webkit-linear-gradient(to bottom, #ffffff , #dcdcdc);
+    background: linear-gradient(to bottom, #ffffff , #dcdcdc)
+}
 
 .hero--get-involved-choose {
-    background: url('./static/1.jpg') center/cover;
+    background: url('./static/19.jpg') center/cover;
 
     &__title {
         color: #fff;
