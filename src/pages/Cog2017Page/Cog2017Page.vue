@@ -38,25 +38,26 @@
 
         <section class="section">
             <div class="container">
-                <div class="heading">
-                    <h2 class="title is-2">How We Teach</h2>
-                </div>
                 <cog-features-tabs></cog-features-tabs>
             </div>
         </section>
 
-        <section class="section page-cog-2017__schools">
+        <section class="section page-cog-2017__venue">
             <div class="container">
                 <div class="columns">
-                    <div class="column">
-                        <div class="heading">
-                            <h2 class="title is-2">Schools</h2>
-                        </div>
-                        <p>We select students from up to five schools. We make room for students who are underperforming or just looking to sharpen their knowledge.</p>
+                    <div class="column is-one-quarter">
+                        <img src="./static/qc-crest.png" width="150" alt="">
                     </div>
                     <div class="column">
+                        <div class="content">
+                            <div class="heading">
+                                <h4 class="title is-4">Venue: Queen's College</h4>
+                            </div>
+                            <p>Students of five schools are placed in one of Guyana's top learning facilities they will learn together.</p>
+                        </div>
 
                     </div>
+
                 </div>
 
             </div>
@@ -144,8 +145,12 @@ export default {
         // background: linear-gradient(to bottom, #E0EAFC , #CFDEF3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
 
-    &__schools {
+    &__venue {
         background: #f5f5f5;
+        background: -webkit-linear-gradient(to right, #fff, #dede28);
+        background: linear-gradient(to right, #fff, #dede28);
+        border-top:: 1px solid #3c2511;
+        border-bottom: 1px solid #3c2511;
     }
 
 
