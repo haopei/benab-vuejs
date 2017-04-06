@@ -11,8 +11,19 @@
       </div>
     </section>
 
+    <section class="section is-medium has-text-centered">
+      <div class="container">
+        <h4 class="subtitle is-4">Our Mission</h4>
+        <p class="subtitle">
+          We believe that education is the answer to many things. <br>
+          That is why we are focused on improving the aptitude of <br>
+          Mathematics and English in all students of Guyana.
+        </p>
+      </div>
+    </section>
 
     <cog-partial></cog-partial>
+
     <section class="section is-medium media-coverage has-text-centered">
         <div class="container">
           <div class="heading">
