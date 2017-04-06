@@ -2,7 +2,7 @@
     <div>
         <benab-header></benab-header>
         <router-view></router-view>
-        <benab-footer></benab-footer>
+        <!-- <benab-footer></benab-footer> -->
     </div>
 </template>
 <script>
@@ -24,6 +24,9 @@ export default {
 </script>
 
 <style lang="scss">
+    $brown: #5e2e01;
+    $primary: $brown !default;
+
     @import '~bulma/bulma.sass';
 
     .padded-space {
