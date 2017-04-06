@@ -1,20 +1,24 @@
 <template>
   <div class="page page--home">
-    <section class="section">
+
+
+    <section class="section is-medium has-text-centered intro">
       <div class="container">
-        <h1 class="title is-1">Mobilizing Youths For Good</h1>
-        <h4 class="subtitle is-4">We are a small group of folks who identify education-related problems and solving them.</h4>
+        <img src="./../assets/benab-logo.png" alt="">
+        <br> <br>
+        <h1 class="title is-1 is-spaced">Moving Education Forward</h1>
+        <p class="subtitle">We are a small group of folks who identify education-related problems and solving them.</p>
       </div>
     </section>
+
+
     <cog-partial></cog-partial>
-    <section class="section media-coverage has-text-centered">
+    <section class="section is-medium media-coverage has-text-centered">
         <div class="container">
           <div class="heading">
             <h2 class="subtitle is-2">In The Media</h2>
           </div>
-
           <br><br>
-
           <div class="columns">
             <div class="column">
               <a href="http://demerarawaves.com/2015/07/07/benab-foundation-helping-to-improve-numeracy-literacy-in-several-city-schools/">
@@ -68,6 +72,12 @@ export default {
 </script>
 
 <style lang="scss">
+
+  .intro {
+    background: #cfcfaa;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #f5f5f5, #cfcfaa);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #f5f5f5, #cfcfaa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
 
   .media-coverage {
     background: #f5f5f5;
