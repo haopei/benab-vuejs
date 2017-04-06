@@ -1,10 +1,11 @@
 <template lang="html">
-    <section class="section partial background--cog-hero has-text-centered is-medium">
+    <section class="section partial background--cog-hero has-text-centered is-medium is-fluid">
 
-        <div class="container">
+        <div class="container is-fluid">
+            <p class="subtitle is-4">Our Signture Project</p>
             <img src="./cog-title-text.png" alt="">
             <br><br>
-            <p class="subtitle">Leveling up students in Mathematics and English</p>
+            <p class="subtitle">Annual 30-days bootcamp to level up students in Mathematics and English</p>
             <router-link :to="{ name: 'Cog2017Page' }"><a class="button is-primary is-large">Learn More</a></router-link>
 
         </div>
