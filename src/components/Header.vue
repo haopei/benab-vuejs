@@ -71,4 +71,7 @@ export default {
 </script>
 
 <style lang="scss">
+.nav {
+  // background: $brown;
+}
 </style>
