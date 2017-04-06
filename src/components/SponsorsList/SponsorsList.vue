@@ -10,7 +10,7 @@
                   <h6 class="subtitle is-6">Or as we refer to them — 'Guardian Angels'</h6>
               </div>
               <div class="is-pulled-right">
-                  <a href="#">Become a Sponsor</a>
+                  <router-link :to="{name: 'GetInvolvedSponsorsPage'}" class="button is-primary">Become a Sponsor</router-link>
               </div>
           </div>
 
@@ -27,7 +27,9 @@
                       <div class="column">
                           <div class="columns">
                               <div v-for="sponsor in cogSponsors2017" class="sponsor-item column">
-                                  <img :src="sponsor.image" :alt="sponsor.name">
+                                  <figure class="image is-64x64">
+                                      <img :src="sponsor.image" :alt="sponsor.name">
+                                  </figure>
                               </div>
                           </div>
                       </div>
@@ -43,7 +45,9 @@
                       <div class="column">
                           <div class="columns">
                               <div v-for="sponsor in cogSponsors2016" class="sponsor-item column">
-                                  <img :src="sponsor.image" :alt="sponsor.name">
+                                  <figure class="image is-64x64">
+                                      <img :src="sponsor.image" :alt="sponsor.name">
+                                  </figure>
                               </div>
                           </div>
                       </div>
@@ -62,7 +66,9 @@
                           <div class="column">
                               <div class="columns">
                                   <div v-for="sponsor in cogSponsors2015" class="sponsor-item column">
-                                      <img :src="sponsor.image" :alt="sponsor.name">
+                                      <figure class="image is-64x64">
+                                          <img :src="sponsor.image" :alt="sponsor.name">
+                                      </figure>
                                   </div>
                               </div>
                           </div>
@@ -78,7 +84,9 @@
                           <div class="column">
                               <div class="columns">
                                   <div v-for="sponsor in cogSponsors2014" class="sponsor-item column">
-                                      <img :src="sponsor.image" :alt="sponsor.name">
+                                      <figure class="image is-64x64">
+                                          <img :src="sponsor.image" :alt="sponsor.name">
+                                      </figure>
                                   </div>
                               </div>
                           </div>
@@ -94,7 +102,9 @@
                           <div class="column">
                               <div class="columns">
                                   <div v-for="sponsor in cogSponsors2013" class="sponsor-item column">
-                                      <img :src="sponsor.image" :alt="sponsor.name">
+                                      <figure class="image is-64x64">
+                                          <img :src="sponsor.image" :alt="sponsor.name">
+                                      </figure>
                                   </div>
                               </div>
                           </div>
@@ -140,7 +150,7 @@ export default {
 
 <style lang="scss" scoped>
     h4 {
-        padding: 3.5rem 0;
+        padding: 1rem 0;
         font-size: 2rem;
     }
 </style>
