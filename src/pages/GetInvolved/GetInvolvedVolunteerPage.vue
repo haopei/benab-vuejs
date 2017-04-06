@@ -1,33 +1,33 @@
 <template lang="html">
-    <div class="page page--volunteer">
-
-        <section class="hero is-medium is-primary background--cog-hero">
-          <div class="hero-body">
-            <div class="container">
-              <h1 class="title is-spaced">
-                  Volunteer
-              </h1>
-              <h4 class="subtitle is-4">
-                  <small>
-                      A rewarding experience.
-                  </small>
-              </h4>
+    <div class="page page--members">
+        <section class="hero is-primary is-bold is-medium">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title is-1">Volunteer</h1>
+                    <p class="subtitle">Join us in educational impact</p>
+                    <a href="#" class="button is-inverted is-primary">Volunteer Now</a>
+                </div>
             </div>
-          </div>
         </section>
+        <div class="section">
+            <div class="columns">
+                <div class="column">
+                    <div class="has-text-centered">
+                        <h4 class="title is-4">Open Volunteering Roles</h4>
+                        <ul>
+                            <li>Volunteer Tutors (Mathematics, English, or both)</li>
+                            <li>Student Outreach Officer</li>
+                            <li>Event Planner</li>
+                        </ul>
+                        <br>
 
-        <div class="requirements">
-            <h3>Requirements</h3>
-            <ul>
-                <li>Hero</li>
-                <li>Encourage people to volunteer with good reason</li>
-                <li>Vounteer experience</li>
-                <li>Existing volunteers</li>
-                <li>list of Roles</li>
-                <li>Link to form</li>
-            </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
+
 </template>
 
 <script>
@@ -35,5 +35,8 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
+    .hero--get-involved-membership {
+        background: url('./static/1.jpg') center/cover;
+    }
 </style>

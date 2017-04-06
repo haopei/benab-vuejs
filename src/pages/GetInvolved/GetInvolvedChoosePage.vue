@@ -46,7 +46,7 @@
                     <div class="column">
                         <div class="box">
                             <h4 class="title is-spaced is-4">Join Our Team</h4>
-                            <img src="./static/3.jpg" alt="" class="is-fullwidth">
+                            <img src="./static/19.jpg" alt="" class="is-fullwidth">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             <br>
                             <router-link :to="{name: 'GetInvolvedMembershipPage'}" class="button is-primary">Join Now</router-link>
