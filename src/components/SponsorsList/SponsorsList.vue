@@ -1,11 +1,20 @@
 <template lang="html">
-    <section class="section">
+    <section class="section is-medium">
       <div class="container">
           <div class="heading">
                 <h2 class="subtitle is-2">Sponsors</h2>
           </div>
 
-          <h6 class="subtitle is-6">Or as we refer to them — 'Guardian Angels'</h6>
+          <div class="is-clearfix">
+              <div class="is-pulled-left">
+                  <h6 class="subtitle is-6">Or as we refer to them — 'Guardian Angels'</h6>
+              </div>
+              <div class="is-pulled-right">
+                  <a href="#">Become a Sponsor</a>
+              </div>
+          </div>
+
+
           <div class="sponsor-list-by-year-container">
 
               <hr>
