@@ -27,7 +27,11 @@ export default {
     $brown: #946440;
     $primary: $brown !default;
     @import '~bulma/bulma.sass';
-    
+
+    .heading {
+        text-transform: none;
+    }
+
     .white-text-section * {
         color: #fff;
     }
