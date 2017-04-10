@@ -2,7 +2,7 @@
   <div class="page page--home">
 
 
-    <section class="section is-medium has-text-centered intro">
+    <section class="section has-text-centered is-fullheight intro">
       <div class="container">
         <img src="./../assets/benab-logo.png" alt="">
         <br> <br>
@@ -13,12 +13,27 @@
 
     <section class="section is-medium has-text-centered">
       <div class="container">
-        <h4 class="subtitle is-4">Our Mission</h4>
-        <p class="subtitle">
-          We believe that education is the answer to many things. <br>
-          That is why we are focused on improving the aptitude of <br>
-          Mathematics and English in all students of Guyana.
-        </p>
+        <div class="columns">
+          <div class="column">
+            <h3 class="subtitle is-3">We Believe in Education</h3>
+            <p>
+              We believe that quality education is the key in advancing Guyana.
+            </p>
+          </div>
+
+          <div class="column">
+            <h3 class="subtitle is-3">Project Oriented</h3>
+            <p>
+              We identify, plan, and execute projects which we estimate to have high societal impact
+            </p>
+          </div>
+          <div class="column">
+            <h3 class="subtitle is-3">Non-Profit</h3>
+            <p>
+              We are driven by sponsors who see the importance of our vision.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
 
