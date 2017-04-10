@@ -3,12 +3,12 @@
       <section class="hero is-primary is-medium is-bold">
         <div class="hero-body">
           <div class="container">
-            <h1 class="title">
+            <h1 class="title is-1">
               Our Story
             </h1>
-            <h2 class="subtitle">
+            <h6 class="subtitle is-6">
               In short, we are just a bunch of energetic, young folks who can see better.
-            </h2>
+          </h6>
           </div>
         </div>
       </section>

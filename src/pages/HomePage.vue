@@ -7,7 +7,7 @@
         <img src="./../assets/benab-logo.png" alt="">
         <br> <br>
         <h1 class="title is-1 is-spaced">Moving Education Forward</h1>
-        <p class="subtitle">We are a small group of folks who identify education-related problems and solving them.</p>
+        <h4 class="subtitle is-4">We are a small group of folks who identify education-related problems and solving them.</h4>
         <router-link :to="{ name: 'AboutPage' }"><a class="button is-primary is-large">More About Us</a></router-link>
       </div>
     </section>

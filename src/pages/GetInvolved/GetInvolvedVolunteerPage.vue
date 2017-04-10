@@ -4,7 +4,7 @@
             <div class="hero-body">
                 <div class="container">
                     <h1 class="title is-1">Volunteer</h1>
-                    <p class="subtitle">Join us in educational impact</p>
+                    <h6 class="subtitle is-6">Join us in educational impact</h6>
                     <a href="#" class="button is-inverted is-primary">Volunteer Now</a>
                 </div>
             </div>

@@ -3,12 +3,12 @@
     <section class="hero is-primary is-medium is-bold">
       <div class="hero-body">
         <div class="container">
-          <h1 class="title">
+          <h1 class="title is-1">
             Contact Us
           </h1>
-          <h2 class="subtitle">
+          <h6 class="subtitle is-6">
               We are always happy to connect with thinkers and doers.
-          </h2>
+          </h6>
         </div>
       </div>
     </section>

@@ -4,12 +4,10 @@
         <section class="hero is-primary is-medium is-bold">
           <div class="hero-body">
             <div class="container">
-              <h1 class="title">
+              <h1 class="title is-1">
                 Get Involved
               </h1>
-              <h2 class="subtitle">
-                  Work together with us; we will transform education together.
-              </h2>
+              <h6 class="subtitle is-6">Work together with us; we will transform education together.</h6>
             </div>
           </div>
         </section>

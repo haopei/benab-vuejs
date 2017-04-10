@@ -4,8 +4,7 @@
             <div class="hero-body">
                 <div class="container">
                     <h1 class="title is-1">Join The Team</h1>
-                    <p class="subtitle">Continuously challenge yourself in creative projects which <br> aim to improve the education levels in Guyana</p>
-
+                    <h6 class="subtitle is-6">Continuously challenge yourself in creative projects which <br> aim to improve the education levels in Guyana</h6>
                 </div>
             </div>
         </section>
