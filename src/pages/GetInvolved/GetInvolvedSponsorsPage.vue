@@ -3,30 +3,38 @@
         <section class="hero is-primary is-bold is-medium">
             <div class="hero-body">
                 <div class="container">
-                    <h1 class="title is-1">Sponsor The Benab</h1>
-                    <p class="subtitle">Join us in moving up education in Guyana</p>
-                    <a href="#" class="button is-primary is-inverted">Sponsor Now</a>
-
+                    <h1 class="title is-1">Donate</h1>
+                    <h6 class="subtitle is-6">Empower us to make a difference</h6>
                 </div>
             </div>
         </section>
-        <div class="section">
-            <div class="columns">
-                <div class="column">
-                    <div class="">
-                        <h4 class="title is-4">Things We Need</h4>
-                        <ul>
-                            <li>Food for N kids</li>
-                            <li>Money</li>
-                            <li>Stationery</li>
-                            <li>Transportation</li>
-                            <li>more</li>
-                            <li>etc</li>
-                        </ul>
+
+        <section class="section">
+            <div class="container">
+                <div class="has-text-centered">
+                    <div class="padded-space"></div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <h4 class="title is-4">We care about education</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="column">
+                        <h4 class="title is-4">We Never Stop Moving</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="column">
+                        <h4 class="title is-4">We Empower Youths</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <hr>
+        <section class="section has-text-centered">
+            <router-link :to="{ name: 'Cog2017Page' }"><a class="button is-primary is-large">Donate Now</a></router-link>
+
+        </section>
     </div>
 
 
