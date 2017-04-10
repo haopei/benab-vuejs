@@ -64,7 +64,7 @@
                   <img :src="require('./static/larry.jpg')" alt="">
                   <h4 class="title is-4">Larry Carryl</h4>
                   <h6 class="subtitle is-6">Role</h6>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                  <p>If it involves reading, researching, or junk food, you can count me in. An engineer by profession, but a youth activist by passion, I try to make whatever little difference I can in the development of young people in Guyana. Being a part of the Benab team allows me to reach a fair number of under-privileged children each year, and try to better prepare them for the new school year. I’m hoping that in time we’ll be able to work together as a team to extend the length of the summer tutoring, as well as expand the range of initiatives that we have.</p>
               </div>
 
               <div class="column">

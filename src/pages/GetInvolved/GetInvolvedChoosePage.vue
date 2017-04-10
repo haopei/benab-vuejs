@@ -1,27 +1,21 @@
 <template lang="html">
 
     <div class="get-involved-choose">
-        <section class="hero hero--get-involved-choose is-medium">
+        <section class="hero is-primary is-medium is-bold">
           <div class="hero-body">
             <div class="container">
-                &nbsp;
+              <h1 class="title">
+                Get Involved
+              </h1>
+              <h2 class="subtitle">
+                  Work together with us; we will transform education together.
+              </h2>
             </div>
           </div>
         </section>
 
         <section class="section content-container">
             <div class="container">
-                <div class="columns">
-                    <div class="column">
-                        <div class="has-text-centered">
-                            <h1 class="title is-1">
-                              Get Involved
-                            </h1>
-                            <p class="subtitle">Work together with us; we will transform education together.</p>
-                            <br>
-                        </div>
-                    </div>
-                </div>
                 <div class="columns">
                     <div class="column">
                         <div class="box">

@@ -43,25 +43,10 @@
         </section>
 
         <section class="section page-cog-2017__venue">
-            <div class="container">
-                <div class="columns">
-                    <div class="column is-one-quarter">
-                        <img src="./static/qc-crest.png" width="150" alt="">
-                    </div>
-                    <div class="column">
-                        <div class="content">
-                            <div class="heading">
-                                <h4 class="title is-4">Venue: Queen's College</h4>
-                            </div>
-                            <p>Students of five schools are placed in one of Guyana's top learning facilities they will learn together.</p>
-                        </div>
-
-                    </div>
-
-                </div>
-
+            <div class="qc-venue white-text-section">
+                <h4 class="title is-4 text--white">An Environment for Learning</h4>
+                <p>Students are taught at Queen's College</p>
             </div>
-
         </section>
 
         <!-- <section class="section">
@@ -146,15 +131,24 @@ export default {
     }
 
     &__venue {
-        background: #f5f5f5;
-        background: -webkit-linear-gradient(to right, #fff, #dede28);
-        background: linear-gradient(to right, #fff, #dede28);
-        border-top:: 1px solid #3c2511;
-        border-bottom: 1px solid #3c2511;
+        background: url('./static/qc.jpg') center/cover;
+        padding: 30rem 0 0;
     }
 
 
 }
+
+.qc-venue {
+    padding: 1rem;
+    background: #5285c7;
+    margin: 0 auto;
+    opacity: 0.9;
+    color: #fff;
+}
+
+// .qc-venue * {
+//     color: #fff;
+// }
 
 .swiper-slide {
   width: 80%;

@@ -24,10 +24,13 @@ export default {
 </script>
 
 <style lang="scss">
-    $brown: #5e2e01;
+    $brown: #946440;
     $primary: $brown !default;
-
     @import '~bulma/bulma.sass';
+    
+    .white-text-section * {
+        color: #fff;
+    }
 
     .padded-space {
         margin-bottom: 1rem;

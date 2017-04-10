@@ -1,22 +1,20 @@
 <template lang="html">
   <div class="page--contact">
-
-    <section class="hero hero--contact-page is-large">
+    <section class="hero is-primary is-medium is-bold">
       <div class="hero-body">
         <div class="container">
+          <h1 class="title">
+            Contact Us
+          </h1>
+          <h2 class="subtitle">
+              We are always happy to connect with thinkers and doers.
+          </h2>
         </div>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section has-text-centered contact-bar">
       <div class="container">
-        <div class="heading">
-          <h2 class="title is-h2">Get In Touch</h2>
-        </div>
-        <h6 class="subtitle is-6">We are always happy to connect with thinkers and doers.</h6>
-
-        <hr>
-
         <div class="columns">
           <div class="column">
             <i class="fa fa-phone fa-fw fa-2x" aria-hidden="true"></i>
@@ -28,6 +26,13 @@
             <h4 class="subtitle is-4">thebenabfoundation@gmail.com</h4>
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="section has-text-centered">
+      <div class="container">
+        <h6 class="title is-6">We are looking forward to meeting from you</h6>
+        <img src="./static/team-gelling-600.jpg" alt="">
       </div>
     </section>
 
@@ -50,6 +55,9 @@ export default {
   .hero--contact-page {
     background-image: url('./static/team-gelling.jpg');
     background-size: cover;
+  }
 
+  .contact-bar {
+    background: #f5f5f5;
   }
 </style>

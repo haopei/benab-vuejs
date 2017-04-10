@@ -1,4 +1,5 @@
 <template lang="html">
+    
     <section class="section partial--get-involved">
       <div class="container">
         <div class="heading"><h2 class="title is-2">Get Involved</h2></div>

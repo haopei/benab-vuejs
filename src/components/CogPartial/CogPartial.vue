@@ -2,7 +2,6 @@
     <section class="section partial background--cog-hero has-text-centered is-large is-fluid">
 
         <div class="container is-fluid">
-            <p class="subtitle is-4">Our Signture Project</p>
             <img src="./cog-title-text.png" alt="">
             <br><br>
             <p class="subtitle">Annual 30-days bootcamp to level up students in Mathematics and English</p>
