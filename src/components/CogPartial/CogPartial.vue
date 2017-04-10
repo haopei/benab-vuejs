@@ -1,5 +1,5 @@
 <template lang="html">
-    <section class="section partial background--cog-hero has-text-centered is-medium is-fluid">
+    <section class="section partial background--cog-hero has-text-centered is-large is-fluid">
 
         <div class="container is-fluid">
             <p class="subtitle is-4">Our Signture Project</p>
