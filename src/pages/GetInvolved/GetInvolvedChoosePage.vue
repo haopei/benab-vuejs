@@ -20,7 +20,7 @@
                     <div class="column">
                         <div class="box">
                             <h4 class="title is-spaced is-4">Volunteer</h4>
-                            <img src="./static/2.jpg" alt="" class="is-fullwidth">
+                            <img src="./static/GetInvolvedChoosePage/volunteer.jpg" alt="" class="is-fullwidth">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             <br>
                             <router-link :to="{name: 'GetInvolvedVolunteerPage'}" class="button is-primary">Volunteer Now</router-link>
@@ -30,7 +30,7 @@
                     <div class="column">
                         <div class="box">
                             <h4 class="title is-spaced is-4">Donate</h4>
-                            <img src="./static/3.jpg" alt="" class="is-fullwidth">
+                            <img src="./static/GetInvolvedChoosePage/donate2.jpg" alt="" class="is-fullwidth">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             <br>
                             <router-link :to="{name: 'GetInvolvedSponsorsPage'}" class="button is-primary">Donate Now</router-link>
@@ -40,7 +40,7 @@
                     <div class="column">
                         <div class="box">
                             <h4 class="title is-spaced is-4">Join Our Team</h4>
-                            <img src="./static/19.jpg" alt="" class="is-fullwidth">
+                            <img src="./static/GetInvolvedChoosePage/join-team.jpg" alt="" class="is-fullwidth">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                             <br>
                             <router-link :to="{name: 'GetInvolvedMembershipPage'}" class="button is-primary">Join Now</router-link>
@@ -69,17 +69,6 @@ export default {
     background: #4C86A8;
     background: -webkit-linear-gradient(to bottom, #ffffff , #dcdcdc);
     background: linear-gradient(to bottom, #ffffff , #dcdcdc)
-}
-
-.hero--get-involved-choose {
-    background: url('./static/19.jpg') center/cover;
-
-    &__title {
-        color: #fff;
-    }
-    &__subtitle {
-        color: #fff;
-    }
 }
 
 
