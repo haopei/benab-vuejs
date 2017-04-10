@@ -15,12 +15,9 @@
 
       <section class="section">
         <div class="container">
-          <div class="heading">
-            <h2 class="subtitle is-2">Our Story</h2>
-          </div>
-          <hr>
           <div class="columns">
             <div class="column">
+              <h3 class="title is-3">Grassroot Beginnings</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
@@ -39,7 +36,7 @@
             <div class="level-left">
               <div class="leve-item">
                 <div class="heading">
-                  <h2 class="subtitle is-2">Team</h2>
+                  <h2 class="title is-2">Team</h2>
                 </div>
               </div>
             </div>
