@@ -1,28 +1,35 @@
 <template lang="html">
 
   <div class="testimonial-container">
-    <article class="media testimonial">
+
+    <div class="testimonial">
       <div class="columns">
-          <div class="column is-one-quarter">
-            <figure class="media-left">
-              <p class="image is-64x64">
-                <img :src="testimonial.image">
-              </p>
-            </figure>
-          </div>
-          <div class="column">
-            <div class="media-content">
-              <div class="content">
-                  "<em>{{ testimonial.quote }}</em>"
-                  <br>
-                  <strong>{{ testimonial.name }}</strong>
-                  <br>
-                  <small>{{ testimonial.role }}</small>
-              </div>
+        <div class="column">
+          <figure class="media-right is-pulled-right">
+            <p class="image is-64x64">
+              <img :src="testimonial.image" class="testimonial__author-thumbnail" @click="handleClick">
+            </p>
+          </figure>
+        </div>
+        <div class="column">
+            <div class="">
+            <strong>{{ testimonial.name }}</strong>
             </div>
+            <small>{{ testimonial.role }}</small>
+        </div>
+      </div>
+    </div>
+
+    <div v-if="showPopUp" class="testimonial__author-quote">
+      <div class="content">
+          <i class="fa fa-fw fa-quote-left" aria-hidden="true"></i>
+          <em>{{ testimonial.quote }}</em>"
+          <br>
+          <div class="closeButton is-pulled-right" @click="closePopUp">
+            close
           </div>
       </div>
-  </article>
+    </div>
   </div>
 
 </template>
@@ -30,7 +37,20 @@
 <script>
 
 export default {
-  props: ['testimonial']
+  props: ['testimonial'],
+  data() {
+    return {
+      showPopUp: false
+    }
+  },
+  methods: {
+    handleClick: function() {
+      this.showPopUp = !this.showPopUp;
+    },
+    closePopUp: function() {
+      this.showPopUp = false;
+    }
+  }
 }
 
 
@@ -39,13 +59,37 @@ export default {
 
 <style lang="scss">
 
+.testimonial-container {
+  text-align: left;
+  position: relative;
+}
+
 .testimonial {
-  background: rgba(255, 255, 255, 0.2);
   display: inline-block;
-  padding: 1rem;
-  margin: 1rem 0;
-  max-width: 450px;
-  border-radius: 5px;
+
+  &__author-thumbnail {
+    border-radius: 50%;
+    padding: 2px;
+    background: #f5f5f5;
+    box-shadow: #333 0px 0px 12px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__author-quote {
+    // style
+    background: #f5f5f5;
+    border-radius: 5px;
+    text-align: left;
+    // structure
+    max-width: 500px;
+    padding: 10px;
+    position: absolute;
+    bottom: 80px;
+    left: 20px;
+  }
 }
 
 </style>
