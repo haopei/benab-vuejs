@@ -2,7 +2,7 @@
     <div>
         <benab-header></benab-header>
         <router-view></router-view>
-        <!-- <benab-footer></benab-footer> -->
+        <benab-footer></benab-footer>
     </div>
 </template>
 <script>

@@ -4,7 +4,7 @@
             <div class="tabs is-centered is-fullwidth is-large is-boxed">
               <ul>
                 <li class="is-active"><a @click="handleTabClick" data-tab="tailored">Tailored Curriculum</a></li>
-                <li><a @click="handleTabClick" data-tab="volunteers">Top Volunteers</a></li>
+                <li><a @click="handleTabClick" data-tab="volunteers">Volunteers</a></li>
                 <li><a @click="handleTabClick" data-tab="focused-mentorship">Focused 1-on-1 Mentorship</a></li>
               </ul>
             </div>
