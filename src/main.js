@@ -12,7 +12,7 @@ import GetInvolvedMembershipPage from './pages/GetInvolved/GetInvolvedMembership
 import GetInvolvedParent from './pages/GetInvolved/GetInvolvedParent.vue'
 import GetInvolvedSponsorsPage from './pages/GetInvolved/GetInvolvedSponsorsPage.vue'
 import GetInvolvedVolunteerPage from './pages/GetInvolved/GetInvolvedVolunteerPage.vue'
-import HomePage from './pages/HomePage.vue'
+import HomePage from './pages/HomePage/HomePage.vue'
 import ProjectsPage from './pages/ProjectsPage.vue'
 
 

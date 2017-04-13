@@ -4,11 +4,22 @@
 
     <section class="section has-text-centered is-fullheight intro">
       <div class="container">
-        <img src="./../assets/benab-logo.png" alt="">
+        <img src="./../../assets/benab-logo.png" alt="">
         <br> <br>
         <h1 class="title is-1 is-spaced">Moving Education Forward</h1>
-        <h4 class="subtitle is-4">We are a small group of folks who identify education-related problems and solving them.</h4>
+        <testimonial
+          :testimonial="{
+            name: 'Jane Doe',
+            quote: 'We are a small group of folks who identify education-related problems and solving them.',
+            image: require('./static/mkb.jpg'),
+            role: 'Volunteer'}">
+        </testimonial>
+
+
         <router-link :to="{ name: 'AboutPage' }"><a class="button is-primary is-large">More About Us</a></router-link>
+
+
+
       </div>
     </section>
 
@@ -45,7 +56,7 @@
           <div class="columns">
             <div class="column">
               <a href="http://demerarawaves.com/2015/07/07/benab-foundation-helping-to-improve-numeracy-literacy-in-several-city-schools/">
-                <img src="./static/demerara-waves-logo.png" class="media-coverage__logo" alt="">
+                <img src="./../static/demerara-waves-logo.png" class="media-coverage__logo" alt="">
                 <h6 class="subtitle is-6">
                   <em>"Benab Foundation helping to improve numeracy, literacy in several City schools"</em>
                 </h6>
@@ -54,7 +65,7 @@
 
             <div class="column">
               <a href="https://guyanachronicle.com/2016/06/18/benab-foundation-rolls-out-literacy-prog-in-july">
-                <img src="./static/chronicle-logo.png" class="media-coverage__logo" alt="">
+                <img src="./../static/chronicle-logo.png" class="media-coverage__logo" alt="">
                 <h6 class="subtitle is-6">
                   <em>"Benab Foundation rolls out literacy programme in July"</em>
                 </h6>
@@ -63,7 +74,7 @@
 
             <div class="column">
               <a href="http://guyanatimesgy.com/literacy-numeracy-classes-for-100-students-benab-foundation/">
-                <img src="./static/guyana-times-logo.png" class="media-coverage__logo" alt="">
+                <img src="./../static/guyana-times-logo.png" class="media-coverage__logo" alt="">
                 <h6 class="subtitle is-6">
                   <em>"Literacy, numeracy classes for 100 students – Benab Foundation"</em>
                 </h6>
@@ -81,16 +92,18 @@
 <script>
 
 // Component Imports
-import GetInvolved from './../components/GetInvolved.vue'
-import SponsorsList from './../components/SponsorsList/SponsorsList.vue'
+import GetInvolved from './../../components/GetInvolved.vue'
+import SponsorsList from './../../components/SponsorsList/SponsorsList.vue'
+import Testimonial from './../../components/Testimonial.vue';
 
 // Partial Imports
-import CogPartial from './../components/CogPartial/CogPartial.vue'
+import CogPartial from './../../components/CogPartial/CogPartial.vue'
 
 export default {
   components: {
     GetInvolved,
     SponsorsList,
+    Testimonial,
     CogPartial
   }
 }
