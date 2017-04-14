@@ -63,7 +63,7 @@
             </div>
         </section> -->
 
-        <cog-volunteers></cog-volunteers
+        <cog-volunteers></cog-volunteers>
 
         <sponsors-list></sponsors-list>
         <get-involved></get-involved>
