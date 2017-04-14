@@ -63,6 +63,8 @@
             </div>
         </section> -->
 
+        <cog-volunteers></cog-volunteers
+
         <sponsors-list></sponsors-list>
         <get-involved></get-involved>
 
@@ -76,10 +78,12 @@ import GetInvolved from './../../components/GetInvolved.vue'
 import { galleryImages } from './data.js'
 import { swiper, swiperSlide } from 'vue-awesome-swiper'
 import CogFeaturesTabs from './CogFeaturesTabs.vue'
+import CogVolunteers from './CogVolunteers/CogVolunteers.vue'
 
 export default {
     components: {
         CogFeaturesTabs,
+        CogVolunteers,
         GetInvolved,
         SponsorsList,
         swiper,
