@@ -7,7 +7,7 @@
         <div class="column">
           <figure class="image is-48x48 media-right is-pulled-right">
             <p class="image is-48x48">
-              <img :src="image" class="testimonial__author-thumbnail" @click="handleClick">
+              <img :src="image" class="testimonial__author-thumbnail" @click="togglePopup">
             </p>
           </figure>
         </div>
@@ -20,7 +20,7 @@
       </div>
     </div>
 
-    <div v-if="showPopUp" class="testimonial__author-quote">
+    <div v-if="popupIsActive" class="testimonial__author-quote">
       <div class="content">
         <div class="testimonial__close-button is-pulled-right" @click="closePopUp">
           <a class="delete"></a>
@@ -37,18 +37,18 @@
 import { eventBus } from './../main.js'
 
 export default {
-  props: ['name', 'role', 'quote', 'image'],
+  props: ['name', 'role', 'quote', 'image', 'isActive'],
   data() {
     return {
-      showPopUp: false
+      popupIsActive: this.isActive
     }
   },
   methods: {
-    handleClick: function(e) {
-      this.showPopUp = !this.showPopUp;
+    togglePopup: function(e) {
+      this.popupIsActive = !this.popupIsActive;
     },
     closePopUp: function() {
-      this.showPopUp = false;
+      this.popupIsActive = false;
     }
   }
 }
