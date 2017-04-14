@@ -1,12 +1,12 @@
 <template lang="html">
 <div class="">
-    <section class="section cog-volunteers">
+    <section class="section cog-volunteerTestimonials">
         <div class="container">
         <testimonial
-            v-for="vol in volunteers"
+            v-for="vol in volunteerTestimonials"
             :image="vol.image"
             :key="vol.quote"
-            class="cog-volunteers__item">
+            class="cog-volunteerTestimonials__item">
             <span slot="authorName">{{vol.name}}</span>
             <span slot="authorQuote">{{vol.quote}}</span>
             <span slot="authorRole">{{vol.role}}</span>
@@ -20,23 +20,23 @@
 
 /**
  * README
- * This component renders a list of <Testimonials /> (from volunteers) involved in the Cognitive Initiative.
+ * This component renders a list of <Testimonials /> (from volunteerTestimonials) involved in the Cognitive Initiative.
  * Data for each testimonial is hard-coded and retrieved
  */
 
 import Testimonial from './../../../components/Testimonial.vue';
 
-const volunteers = [
-    {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something'},
-    {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something'},
-    {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something'},
-    {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something'},
-    {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something'},
-    {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something'},
-    {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something'},
-    {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something'},
-    {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something'},
-    {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something'},
+const volunteerTestimonials = [
+    {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
 ]
 
 export default {
@@ -45,11 +45,11 @@ export default {
     },
     data() {
         return {
-            volunteers: []
+            volunteerTestimonials: []
         }
     },
     mounted() {
-        this.volunteers = volunteers
+        this.volunteerTestimonials = volunteerTestimonials
     }
 
 }
@@ -58,7 +58,7 @@ export default {
 <style lang="scss">
 
 
-.cog-volunteers {
+.cog-volunteerTestimonials {
     overflow: hidden;
 
     &__item {
