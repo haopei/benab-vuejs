@@ -7,15 +7,15 @@
         <div class="column">
           <figure class="image is-48x48 media-right is-pulled-right">
             <p class="image is-48x48">
-              <img :src="testimonial.image" class="testimonial__author-thumbnail" @click="handleClick">
+              <img :src="image" class="testimonial__author-thumbnail" @click="handleClick">
             </p>
           </figure>
         </div>
         <div class="column">
             <div class="">
-            <strong>{{ testimonial.name }}</strong>
+              <strong><slot name="authorName"></slot></strong>
             </div>
-            <small>{{ testimonial.role }}</small>
+            <small><slot name="authorRole"></slot></small>
         </div>
       </div>
     </div>
@@ -26,7 +26,7 @@
           <a class="delete"></a>
         </div>
         <i class="fa fa-fw fa-quote-left" aria-hidden="true"></i>
-        <em>{{ testimonial.quote }}</em>"
+        <em><slot name="authorQuote"></slot>{{ quote }}</em>"
       </div>
     </div>
   </div>
@@ -34,20 +34,17 @@
 </template>
 
 <script>
+import { eventBus } from './../main.js'
 
 export default {
-  // expected prop types:
-  //   image (string)
-  //   name (string)
-  //   role (string)
-  props: ['testimonial'],
+  props: ['name', 'role', 'quote', 'image'],
   data() {
     return {
       showPopUp: false
     }
   },
   methods: {
-    handleClick: function() {
+    handleClick: function(e) {
       this.showPopUp = !this.showPopUp;
     },
     closePopUp: function() {

@@ -2,7 +2,15 @@
 <div class="">
     <section class="section cog-volunteers">
         <div class="container">
-        <testimonial v-for="vol in volunteers" :testimonial="vol" :key="vol.name" class="cog-volunteers__item" />
+        <testimonial
+            v-for="vol in volunteers"
+            :image="vol.image"
+            :key="vol.quote"
+            class="cog-volunteers__item">
+            <span slot="authorName">{{vol.name}}</span>
+            <span slot="authorQuote">{{vol.quote}}</span>
+            <span slot="authorRole">{{vol.role}}</span>
+        </testimonial>
         </div>
     </section>
 </div>
