@@ -1,70 +1,80 @@
 <template lang="html">
-<div class="">
-    <section class="section cog-volunteerTestimonials">
-        <div class="container">
-        <testimonial
-            v-for="vol in volunteerTestimonials"
-            :image="vol.image"
-            :key="vol.quote"
-            class="cog-volunteerTestimonials__item">
-            <span slot="authorName">{{vol.name}}</span>
-            <span slot="authorQuote">{{vol.quote}}</span>
-            <span slot="authorRole">{{vol.role}}</span>
-        </testimonial>
+    <section class="section">
+        <div class="container-fluid">
+            <div class="heading has-text-centered">
+                <h2 class="title is-h2">Thank You, Volunteers!</h2>
+                <br>
+            </div>
+            <div class="volunteers-list">
+                    <volunteers-list :volunteers="volunteers"></volunteers-list>
+            </div>
         </div>
     </section>
-</div>
 </template>
 
 <script>
 
 /**
  * README
- * This component renders a list of <Testimonials /> (from volunteerTestimonials) involved in the Cognitive Initiative.
- * Data for each testimonial is hard-coded and retrieved
+ * This component renders a list of <Volunteer /> involved in the Cognitive Initiative.
  */
 
-import Testimonial from './../../../components/Testimonial.vue';
+// import Testimonial from './../../../components/Testimonial.vue';
+import VolunteersList from './../../../components/VolunteersList/VolunteersList.vue';
 
-const volunteerTestimonials = [
+const volunteers = [
+    {name: 'Delight', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
     {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Maryam', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Suraiya', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Maria', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Reshmi', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Maria', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Krystal', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Larry', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Benita', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Delight', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
     {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Maryam', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Suraiya', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Maria', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Reshmi', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Maria', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Krystal', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Larry', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Benita', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Delight', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
     {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
-    {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
-    {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
-    {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
-    {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
-    {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
-    {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
-    {name: 'Saevion', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Maryam', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Suraiya', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Maria', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Reshmi', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Maria', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Krystal', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Larry', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false},
+    {name: 'Benita', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.jpg'), quote: 'something', isActive: false}
 ]
 
 export default {
     components: {
-        Testimonial
+        VolunteersList
     },
     data() {
         return {
-            volunteerTestimonials: []
+            volunteers: []
         }
     },
     mounted() {
-        this.volunteerTestimonials = volunteerTestimonials
+        this.volunteers = volunteers
     }
 
 }
 </script>
 
 <style lang="scss">
-
-
-.cog-volunteerTestimonials {
-    overflow: hidden;
-
-    &__item {
-        float: left;
-        width: 20%;
-        margin: 10px 0
+    .section__volunteers {
+        max-height: 600px;
+        overflow-y: scroll;
     }
-}
+
 </style>
