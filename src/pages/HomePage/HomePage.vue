@@ -7,19 +7,12 @@
         <img src="./../../assets/benab-logo.png" alt="">
         <br> <br>
         <h1 class="title is-1 is-spaced">Moving Education Forward</h1>
-        <testimonial
-          :testimonial="{
-            name: 'Jane Doe',
-            quote: 'We are a small group of folks who identify education-related problems and solving them.',
-            image: require('./static/mkb.jpg'),
-            role: 'Volunteer'}">
+        <testimonial :image="require('./static/mkb.jpg')">
+            <span slot="authorName">Jane Doe</span>
+            <span slot="authorRole">Volunteer</span>
+            <span slot="authorQuote">We are a small group of folks who identify education-related problems and solving them.</span>
         </testimonial>
-
-
         <router-link :to="{ name: 'AboutPage' }"><a class="button is-primary is-large">More About Us</a></router-link>
-
-
-
       </div>
     </section>
 
@@ -84,6 +77,14 @@
         </div>
     </section>
     <sponsors-list></sponsors-list>
+    <div class="testimonial--sponsor">
+      <testimonial :image="require('./static/mkb.jpg')">
+          <span slot="authorName">Jane Doe</span>
+          <span slot="authorRole">Volunteer</span>
+          <span slot="authorQuote">We are a small group of folks who identify education-related problems and solving them.</span>
+      </testimonial>
+    </div>
+
     <get-involved></get-involved>
 
   </div>
@@ -123,6 +124,10 @@ export default {
     &__logo {
       height: 60px;
     }
+  }
+
+  .testimonial--sponsor {
+    float: right;
   }
 
 </style>
