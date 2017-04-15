@@ -34,8 +34,6 @@
 </template>
 
 <script>
-import { eventBus } from './../main.js'
-
 export default {
   props: ['name', 'role', 'quote', 'image', 'isActive'],
   data() {
