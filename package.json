@@ -9,6 +9,7 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "bulma": "^0.4.0",
     "vue": "^2.2.1",
     "vue-awesome-swiper": "^2.3.8",
