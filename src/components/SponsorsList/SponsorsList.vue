@@ -4,11 +4,11 @@
           <div class="heading">
                 <h2 class="subtitle is-2">Sponsors</h2>
           </div>
-
           <div class="is-clearfix">
-              <div class="is-pulled-left">
+              <div class="">
                   <h6 class="subtitle is-6">Or as we refer to them — 'Guardian Angels'</h6>
               </div>
+              <br is->
               <div class="is-pulled-right">
                   <router-link :to="{name: 'GetInvolvedSponsorsPage'}" class="button is-primary">Become a Sponsor</router-link>
               </div>
@@ -26,7 +26,7 @@
                       </div>
                       <div class="column">
                           <div class="columns">
-                              <div v-for="sponsor in cogSponsors2017" class="sponsor-item column">
+                              <div v-for="sponsor in cogSponsors2017" class="sponsor-item column is-one-third-mobile is-inline-block-mobile">
                                   <figure class="image is-64x64">
                                       <img :src="sponsor.image" :alt="sponsor.name">
                                   </figure>
@@ -44,7 +44,7 @@
                       </div>
                       <div class="column">
                           <div class="columns">
-                              <div v-for="sponsor in cogSponsors2016" class="sponsor-item column">
+                              <div v-for="sponsor in cogSponsors2016" class="sponsor-item column is-one-third-mobile is-inline-block-mobile">
                                   <figure class="image is-64x64">
                                       <img :src="sponsor.image" :alt="sponsor.name">
                                   </figure>
@@ -65,7 +65,7 @@
                           </div>
                           <div class="column">
                               <div class="columns">
-                                  <div v-for="sponsor in cogSponsors2015" class="sponsor-item column">
+                                  <div v-for="sponsor in cogSponsors2015" class="sponsor-item column is-one-third-mobile is-inline-block-mobile">
                                       <figure class="image is-64x64">
                                           <img :src="sponsor.image" :alt="sponsor.name">
                                       </figure>
@@ -83,7 +83,7 @@
                           </div>
                           <div class="column">
                               <div class="columns">
-                                  <div v-for="sponsor in cogSponsors2014" class="sponsor-item column">
+                                  <div v-for="sponsor in cogSponsors2014" class="sponsor-item column is-one-third-mobile is-inline-block-mobile">
                                       <figure class="image is-64x64">
                                           <img :src="sponsor.image" :alt="sponsor.name">
                                       </figure>
@@ -101,7 +101,7 @@
                           </div>
                           <div class="column">
                               <div class="columns">
-                                  <div v-for="sponsor in cogSponsors2013" class="sponsor-item column">
+                                  <div v-for="sponsor in cogSponsors2013" class="sponsor-item column is-one-third-mobile is-inline-block-mobile">
                                       <figure class="image is-64x64">
                                           <img :src="sponsor.image" :alt="sponsor.name">
                                       </figure>
