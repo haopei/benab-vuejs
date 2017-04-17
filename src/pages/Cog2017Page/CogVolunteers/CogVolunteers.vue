@@ -1,5 +1,5 @@
 <template lang="html">
-    <section class="section">
+    <section class="section section__volunteers">
         <div class="container-fluid">
             <div class="heading has-text-centered">
                 <h2 class="title is-h2">Thank You, Volunteers!</h2>
@@ -73,6 +73,7 @@ export default {
 
 <style lang="scss">
     .section__volunteers {
+        background: #f6fcff;
         max-height: 600px;
         overflow-y: scroll;
     }
