@@ -1,9 +1,11 @@
 <template lang="html">
 
     <footer>
-    <div class="content has-text-centered">
-      Copyright | The Benab Foundation | 2017
-    </div>
+        <div class="container">
+            <div class="content">
+              Copyright © 2017 | The Benab Foundation Inc.
+            </div>
+        </div>
     </footer>
 </template>
 
