@@ -44,8 +44,7 @@
 
         <section class="section page-cog-2017__venue">
             <div class="qc-venue white-text-section">
-                <h4 class="title is-4 text--white">An Environment for Learning</h4>
-                <p>Students are taught at Queen's College</p>
+                <h2 class="title is-2 text--white tinted-label">Students learn leadership, health and discipline</h2>
             </div>
         </section>
 
@@ -135,19 +134,30 @@ export default {
     }
 
     &__venue {
-        background: url('./static/qc.jpg') center/cover;
-        padding: 30rem 0 0;
+        background: url('./static/21.jpg') center/cover;
+        padding: 20rem 0;
     }
 
 
 }
 
+.tinted-label {
+    background: #222;
+    display: inline-block;
+    opacity: 0.8;
+    padding: 1rem;
+
+    &--is-secondary {
+        padding: 0.5rem;
+    }
+}
+
 .qc-venue {
     padding: 1rem;
-    background: #5285c7;
-    margin: 0 auto;
-    opacity: 0.9;
+    text-align: center;
+
     color: #fff;
+
 }
 
 // .qc-venue * {
