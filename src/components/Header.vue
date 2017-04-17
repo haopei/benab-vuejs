@@ -6,10 +6,9 @@
           <a class="nav-item">
             <h1 class="title is-h1">
                 <router-link :to="{ name: 'HomePage' }">
-                    <img src="./../assets/benab-logo-original.png" alt=""> 
+                    <img src="./../assets/logo-2.jpg" alt="">
                     The Benab Foundation
                 </router-link>
-
             </h1>
           </a>
         </div>
