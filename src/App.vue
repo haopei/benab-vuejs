@@ -27,6 +27,7 @@ export default {
     $brown: #946440;
     $primary: $brown !default;
     @import '~bulma/bulma.sass';
+    @import '~bootstrap-grid/dist/grid.min.css';
 
     .heading {
         text-transform: none;

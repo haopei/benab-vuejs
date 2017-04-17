@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "bootstrap-grid": "^2.0.1",
     "bulma": "^0.4.0",
     "vue": "^2.2.1",
     "vue-awesome-swiper": "^2.3.8",
