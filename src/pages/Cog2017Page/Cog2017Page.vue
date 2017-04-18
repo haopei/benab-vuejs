@@ -20,27 +20,28 @@
 
         <section class="section page-cog-2017__overview">
             <div class="container">
-                <div class="content">
-                    <div class="columns">
-                        <div class="column">
-                            <div class="heading">
-                                <h2 class="title is-2">Overview</h2>
-                            </div>
-                            <p>Since 2013 [citation required], we have connected with the schools, students, volunteers and sponsors to run our signature effort, The Cognitive Initiative. In this initiative, volunteer tutors (screened to be top CSEC performers either recently or in the past) attend class at Queen's College to level up Mathematics and English Language in students who are recruited from under-privileged or under-performing schools.</p>
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="heading">
+                            <h2 class="title is-2">Overview</h2>
                         </div>
-                        <div class="column">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Bh6PFNfveac" frameborder="0" allowfullscreen></iframe>
-                        </div>
+                        <p>Since 2013 [citation required], we have connected with the schools, students, volunteers and sponsors to run our signature effort, The Cognitive Initiative. In this initiative, volunteer tutors (screened to be top CSEC performers either recently or in the past) attend class at Queen's College to level up Mathematics and English Language in students who are recruited from under-privileged or under-performing schools.</p>
+                    </div>
+                    <br>
+                    <div class="col-md-offset-1 col-md-6 col-sm-12">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Bh6PFNfveac" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section">
-            <div class="container">
-                <cog-features-tabs></cog-features-tabs>
-            </div>
+        <section>
+
         </section>
+
+
+        <cog-features-tabs></cog-features-tabs>
+
 
         <section class="section page-cog-2017__venue">
             <div class="qc-venue white-text-section">
@@ -65,6 +66,24 @@
         <cog-volunteers></cog-volunteers>
 
         <sponsors-list></sponsors-list>
+
+        <section class="section">
+          <div class="container">
+            <div class="heading">
+              <h2 class="title is-2">Individual Contributors</h2>
+            </div>
+            <hr>
+            <div class="content">
+              <ul>
+                <li><strong>Mr. Robert Carryl</strong> for contributed to our fundraising efforts, every time.</li>
+                <li><strong>Mr. Robert Mansell</strong> for his kind monetary contribution to the Cognitive Initiative 2016</li>
+
+                <li><strong>Mrs. Jennifer Cumberbach</strong> who connected us to the right people at the right time.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
         <get-involved></get-involved>
 
     </div>

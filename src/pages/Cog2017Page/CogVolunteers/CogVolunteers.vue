@@ -2,11 +2,11 @@
     <section class="section section__volunteers">
         <div class="container-fluid">
             <div class="heading has-text-centered">
-                <h2 class="title is-h2">Thank You, Volunteers!</h2>
+                <h2 class="title is-2">Thank You, Volunteers!</h2>
                 <br>
             </div>
             <div class="volunteers-list">
-                    <volunteers-list :volunteers="volunteers"></volunteers-list>
+                <volunteers-list :volunteers="volunteers"></volunteers-list>
             </div>
         </div>
     </section>
