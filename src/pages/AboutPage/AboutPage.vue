@@ -6,22 +6,20 @@
             <h1 class="title is-1">
               Our Story
             </h1>
-            <h6 class="subtitle is-6">
-              In short, we are just a bunch of energetic, young folks who can see better.
-          </h6>
           </div>
         </div>
       </section>
 
       <section class="section">
         <div class="container">
-          <div class="columns">
-            <div class="column">
+          <div class="row">
+            <div class="col-xs-12 col-sm-5">
               <h3 class="title is-3">Grassroot Beginnings</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <br>
             </div>
-            <div class="column">
+            <div class="col-xs-12 col-sm-offset-1 col-sm-6">
                 <img :src="require('./static/point-at-benab.jpg')" alt="">
             </div>
 
@@ -34,9 +32,9 @@
         <div class="container">
           <div class="level">
             <div class="level-left">
-              <div class="leve-item">
+              <div class="level-item">
                 <div class="heading">
-                  <h2 class="title is-2">Team</h2>
+                  <h3 class="title is-3">Team</h3>
                 </div>
               </div>
             </div>
@@ -51,31 +49,42 @@
           <!-- Core Team -->
           <div class="columns">
               <div class="column">
-                  <img :src="require('./static/saevion.jpg')" alt="">
+                  <figure class="image">
+                    <img :src="require('./static/saevion.jpg')" alt="">
+                  </figure>
+                  <br>
                   <h4 class="title is-4">Saevion David-Longe</h4>
                   <h6 class="subtitle is-6">Role</h6>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
               </div>
 
               <div class="column">
-                  <img :src="require('./static/larry.jpg')" alt="">
+                  <figure class="image">
+                    <img :src="require('./static/larry.jpg')" alt="">
+                  </figure>
+                  <br>
                   <h4 class="title is-4">Larry Carryl</h4>
                   <h6 class="subtitle is-6">Role</h6>
                   <p>If it involves reading, researching, or junk food, you can count me in. An engineer by profession, but a youth activist by passion, I try to make whatever little difference I can in the development of young people in Guyana. Being a part of the Benab team allows me to reach a fair number of under-privileged children each year, and try to better prepare them for the new school year. I’m hoping that in time we’ll be able to work together as a team to extend the length of the summer tutoring, as well as expand the range of initiatives that we have.</p>
               </div>
 
               <div class="column">
-                  <img :src="require('./static/mkb.jpg')" alt="">
+                  <figure class="image">
+                    <img :src="require('./static/mkb.jpg')" alt="">
+                  </figure>
+                  <br>
                   <h4 class="title is-4">Maryam K Bacchus</h4>
                   <h6 class="subtitle is-6">Public Relations Officer</h6>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
               </div>
 
               <div class="column">
-                  <img src="" alt="">
-                  <img :src="require('./static/benita.jpg')" alt="">
+                  <figure class="image">
+                    <img :src="require('./static/benita.jpg')" alt="">
+                  </figure>
+                  <br>
                   <h4 class="title is-4">Benita Davis</h4>
-                  <h6 class="subtitle is-6">Role</h6>
+                  <h6 class="subtitle is-6">role</h6>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
               </div>
           </div>
@@ -119,7 +128,10 @@
           <hr>
           <div class="content">
             <ul>
-              <li><h5 class="subtitle is-h5">Mr. Carryl</h5> who consecutively contributed to our fundraising efforts, every time.</h5> </li>
+              <li><strong>Our Amazing Volunteers</strong> who go above and beyond in helping the Benab achieve its goals.</li>
+              <li><strong>Mr. Robert Carryl</strong> for contributed to our fundraising efforts, every time.</li>
+
+              <li><strong>Mrs. Jennifer Cumberbach</strong> who connected us to the right people at the right time.</li>
             </ul>
           </div>
         </div>
