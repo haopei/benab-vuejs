@@ -7,11 +7,11 @@
         <img src="./../../assets/benab-logo.png" alt="">
         <br> <br>
         <h1 class="title is-1 is-spaced">Moving Education Forward</h1>
-        <testimonial :image="require('./static/mkb.jpg')">
+        <!-- <testimonial :image="require('./static/mkb.jpg')">
             <span slot="authorName">Jane Doe</span>
             <span slot="authorRole">Volunteer</span>
             <span slot="authorQuote">We are a small group of folks who identify education-related problems and solving them.</span>
-        </testimonial>
+        </testimonial> -->
         <router-link :to="{ name: 'AboutPage' }"><a class="button is-primary is-large">More About Us</a></router-link>
       </div>
     </section>
@@ -26,12 +26,17 @@
             </p>
           </div>
 
+          <hr class="is-hidden-desktop">
+
           <div class="column">
             <h3 class="subtitle is-3">Project Oriented</h3>
             <p>
               We identify, plan, and execute projects which we estimate to have high societal impact
             </p>
           </div>
+
+          <hr class="is-hidden-desktop">
+
           <div class="column">
             <h3 class="subtitle is-3">Non-Profit</h3>
             <p>
@@ -77,13 +82,6 @@
         </div>
     </section>
     <sponsors-list></sponsors-list>
-    <div class="testimonial--sponsor">
-      <testimonial :image="require('./static/mkb.jpg')">
-          <span slot="authorName">Jane Doe</span>
-          <span slot="authorRole">Volunteer</span>
-          <span slot="authorQuote">We are a small group of folks who identify education-related problems and solving them.</span>
-      </testimonial>
-    </div>
 
     <get-involved></get-involved>
 
