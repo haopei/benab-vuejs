@@ -1,120 +1,119 @@
 <template lang="html">
-    <section class="section is-medium">
+    <section class="section section--sponsors-list is-medium">
       <div class="container">
-          <div class="heading">
-                <h2 class="subtitle is-2">Sponsors</h2>
-          </div>
-          <div class="is-clearfix">
-              <div class="">
-                  <h6 class="subtitle is-6">Or as we refer to them — 'Guardian Angels'</h6>
+          <div class="section--sponsors-list__inner">
+              <div class="has-text-centered">
+                  <div class="heading">
+                        <h2 class="subtitle is-2">Thank You, Sponsors!</h2>
+                  </div>
+                  <!-- <h6 class="subtitle is-6">[insert any text here]</h6> -->
+
               </div>
-              <br is->
-              <div class="is-pulled-right">
-                  <router-link :to="{name: 'GetInvolvedSponsorsPage'}" class="button is-primary">Become a Sponsor</router-link>
-              </div>
-          </div>
 
+              <div class="sponsor-list-by-year-container">
 
-          <div class="sponsor-list-by-year-container">
+                  <hr>
 
-              <hr>
-
-              <div class="sponsor-list--by-year">
-                  <div class="columns">
-                      <div class="column is-2">
-                          <h4 class="subtitle is-4">2017</h4>
+                  <div class="sponsor-list--by-year">
+                      <div class="columns">
+                          <div class="column is-2">
+                              <h4 class="subtitle is-4">2017</h4>
+                          </div>
+                          <div class="column">
+                              <div class="columns">
+                                  <div v-for="sponsor in cogSponsors2017" class="sponsor-item column is-one-third-mobile is-inline-block-mobile">
+                                      <figure class="image is-64x64">
+                                          <img :src="sponsor.image" :alt="sponsor.name">
+                                      </figure>
+                                  </div>
+                              </div>
+                          </div>
                       </div>
-                      <div class="column">
+                  </div>
+                  <hr>
+
+                  <div class="sponsor-list--by-year">
+                      <div class="columns">
+                          <div class="column is-2">
+                              <h4 class="subtitle is-4">2016</h4>
+                          </div>
+                          <div class="column">
+                              <div class="columns">
+                                  <div v-for="sponsor in cogSponsors2016" class="sponsor-item column is-one-third-mobile is-inline-block-mobile">
+                                      <figure class="image is-64x64">
+                                          <img :src="sponsor.image" :alt="sponsor.name">
+                                      </figure>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <hr>
+
+                  <button @click="showMoreSponsors" class="button is-link">Show All Sponsors</button>
+
+                  <div v-if="showAllSponsors">
+                      <div class="sponsor-list--by-year">
                           <div class="columns">
-                              <div v-for="sponsor in cogSponsors2017" class="sponsor-item column is-one-third-mobile is-inline-block-mobile">
-                                  <figure class="image is-64x64">
-                                      <img :src="sponsor.image" :alt="sponsor.name">
-                                  </figure>
+                              <div class="column is-2">
+                                  <h4 class="subtitle is-4">2015</h4>
+                              </div>
+                              <div class="column">
+                                  <div class="columns">
+                                      <div v-for="sponsor in cogSponsors2015" class="sponsor-item column is-one-third-mobile is-inline-block-mobile">
+                                          <figure class="image is-64x64">
+                                              <img :src="sponsor.image" :alt="sponsor.name">
+                                          </figure>
+                                      </div>
+                                  </div>
                               </div>
                           </div>
                       </div>
-                  </div>
-              </div>
-              <hr>
 
-              <div class="sponsor-list--by-year">
-                  <div class="columns">
-                      <div class="column is-2">
-                          <h4 class="subtitle is-4">2016</h4>
-                      </div>
-                      <div class="column">
+                      <hr>
+
+                      <div class="sponsor-list--by-year">
                           <div class="columns">
-                              <div v-for="sponsor in cogSponsors2016" class="sponsor-item column is-one-third-mobile is-inline-block-mobile">
-                                  <figure class="image is-64x64">
-                                      <img :src="sponsor.image" :alt="sponsor.name">
-                                  </figure>
+                              <div class="column is-2">
+                                  <h4 class="subtitle is-4">2014</h4>
+                              </div>
+                              <div class="column">
+                                  <div class="columns">
+                                      <div v-for="sponsor in cogSponsors2014" class="sponsor-item column is-one-third-mobile is-inline-block-mobile">
+                                          <figure class="image is-64x64">
+                                              <img :src="sponsor.image" :alt="sponsor.name">
+                                          </figure>
+                                      </div>
+                                  </div>
                               </div>
                           </div>
                       </div>
+                      <hr>
+
+                      <div class="sponsor-list--by-year">
+                          <div class="columns">
+                              <div class="column is-2">
+                                  <h4 class="subtitle is-4">2013</h4>
+                              </div>
+                              <div class="column">
+                                  <div class="columns">
+                                      <div v-for="sponsor in cogSponsors2013" class="sponsor-item column is-one-third-mobile is-inline-block-mobile">
+                                          <figure class="image is-64x64">
+                                              <img :src="sponsor.image" :alt="sponsor.name">
+                                          </figure>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <br>
+                  <div class="has-text-centered">
+                      <router-link :to="{name: 'GetInvolvedSponsorsPage'}" class="button is-primary is-large">Become a Sponsor</router-link>
                   </div>
               </div>
-              <hr>
-
-              <button @click="showMoreSponsors" class="button is-link">Show All Sponsors</button>
-
-              <div v-if="showAllSponsors">
-                  <div class="sponsor-list--by-year">
-                      <div class="columns">
-                          <div class="column is-2">
-                              <h4 class="subtitle is-4">2015</h4>
-                          </div>
-                          <div class="column">
-                              <div class="columns">
-                                  <div v-for="sponsor in cogSponsors2015" class="sponsor-item column is-one-third-mobile is-inline-block-mobile">
-                                      <figure class="image is-64x64">
-                                          <img :src="sponsor.image" :alt="sponsor.name">
-                                      </figure>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <hr>
-
-                  <div class="sponsor-list--by-year">
-                      <div class="columns">
-                          <div class="column is-2">
-                              <h4 class="subtitle is-4">2014</h4>
-                          </div>
-                          <div class="column">
-                              <div class="columns">
-                                  <div v-for="sponsor in cogSponsors2014" class="sponsor-item column is-one-third-mobile is-inline-block-mobile">
-                                      <figure class="image is-64x64">
-                                          <img :src="sponsor.image" :alt="sponsor.name">
-                                      </figure>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <hr>
-
-                  <div class="sponsor-list--by-year">
-                      <div class="columns">
-                          <div class="column is-2">
-                              <h4 class="subtitle is-4">2013</h4>
-                          </div>
-                          <div class="column">
-                              <div class="columns">
-                                  <div v-for="sponsor in cogSponsors2013" class="sponsor-item column is-one-third-mobile is-inline-block-mobile">
-                                      <figure class="image is-64x64">
-                                          <img :src="sponsor.image" :alt="sponsor.name">
-                                      </figure>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <hr>
-
-              </div>
-
           </div>
+
       </div>
     </section>
 </template>
@@ -152,5 +151,15 @@ export default {
     h4 {
         padding: 1rem 0;
         font-size: 2rem;
+    }
+
+    .section--sponsors-list {
+
+        background: #BEA8AA;
+
+        &__inner {
+            background: #fff;
+            padding: 2rem;
+        }
     }
 </style>
