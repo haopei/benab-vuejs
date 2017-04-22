@@ -92,7 +92,7 @@
 <script>
 
 import SponsorsList from './../../components/SponsorsList/SponsorsList.vue'
-import GetInvolved from './../../components/GetInvolved.vue'
+import GetInvolved from './../../components/GetInvolved/GetInvolved.vue'
 import { galleryImages } from './data.js'
 import { swiper, swiperSlide } from 'vue-awesome-swiper'
 import CogFeaturesTabs from './CogFeaturesTabs.vue'
