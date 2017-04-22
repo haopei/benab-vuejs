@@ -4,7 +4,7 @@
           <div class="section--sponsors-list__inner">
               <div class="has-text-centered">
                   <div class="heading">
-                        <h2 class="subtitle is-2">Thank You, Sponsors!</h2>
+                        <h2 class="subtitle is-2 is-handwriting">Thank You, Sponsors!</h2>
                   </div>
                   <!-- <h6 class="subtitle is-6">[insert any text here]</h6> -->
 

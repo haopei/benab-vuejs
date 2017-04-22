@@ -4,7 +4,7 @@
         <div class="container is-fluid">
             <img src="./cog-title-text.png" alt="">
             <br><br>
-            <p class="subtitle">Annual 30-days bootcamp to level up students in Mathematics and English</p>
+            <h3 class="subtitle is-3 is-handwriting is-white-text">Annual 30-days bootcamp to level up students in Mathematics and English</h3>
             <router-link :to="{ name: 'Cog2017Page' }"><a class="button is-primary is-large">Learn More</a></router-link>
 
         </div>

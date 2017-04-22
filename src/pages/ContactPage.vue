@@ -3,27 +3,26 @@
     <section class="hero is-primary is-medium is-bold">
       <div class="hero-body">
         <div class="container">
-          <h1 class="title is-1">
+          <h1 class="title is-1 is-handwriting">
             Contact Us
           </h1>
-          <h6 class="subtitle is-6">
-              We are always happy to connect with thinkers and doers.
-          </h6>
+
         </div>
       </div>
     </section>
 
-    <section class="section has-text-centered contact-bar">
+    <section class="section contact-bar">
       <div class="container">
         <div class="columns">
           <div class="column">
-            <i class="fa fa-phone fa-fw fa-2x" aria-hidden="true"></i>
-            <h4 class="subtitle is-4">(592) 654-3210</h4>
+            <h4 class="subtitle is-4">
+                We are always happy to connect with thinkers and doers.
+            </h4>
           </div>
 
           <div class="column">
-            <i class="fa fa-envelope fa-fw fa-2x" aria-hidden="true"></i>
-            <h4 class="subtitle is-4">thebenabfoundation@gmail.com</h4>
+            <h4 class="subtitle is-4"><i class="fa fa-envelope fa-fw fa-2x" aria-hidden="true"></i> thebenabfoundation@gmail.com</h4>
+            <h4 class="subtitle is-4"><i class="fa fa-phone fa-fw fa-2x" aria-hidden="true"></i> (592) 654-3210</h4>
           </div>
         </div>
       </div>
@@ -31,7 +30,7 @@
 
     <section class="section has-text-centered">
       <div class="container">
-        <h6 class="title is-6">We are looking forward to meeting from you</h6>
+        <h4 class="title is-4 is-handwriting">Looking forward to meeting you</h4>
         <img src="./static/team-gelling-600.jpg" alt="">
       </div>
     </section>
@@ -43,7 +42,7 @@
 </template>
 
 <script>
-import GetInvolved from './../components/GetInvolved.vue'
+import GetInvolved from './../components/GetInvolved/GetInvolved.vue'
 export default {
   components: {
     GetInvolved
@@ -59,5 +58,9 @@ export default {
 
   .contact-bar {
     background: #f5f5f5;
+  }
+
+  .contact-bar .fa {
+    line-height: 2rem;
   }
 </style>

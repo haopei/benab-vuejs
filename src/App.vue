@@ -26,12 +26,27 @@ export default {
 <style lang="scss">
     $brown: #946440;
     $primary: $brown !default;
+    $handwritingFont: 'Shadows Into Light';
     @import '~bulma/bulma.sass';
     @import '~bootstrap-grid/dist/grid.min.css';
+
+
+    .is-handwriting {
+        font-family: $handwritingFont;
+    }
+
+    .title {
+        font-family: $handwritingFont;
+    }
+
+    .is-white-text {
+        color: #fff;
+    }
 
     .heading {
         text-transform: none;
     }
+
 
     .white-text-section * {
         color: #fff;

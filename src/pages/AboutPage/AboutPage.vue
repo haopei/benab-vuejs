@@ -3,7 +3,7 @@
       <section class="hero is-primary is-medium is-bold">
         <div class="hero-body">
           <div class="container">
-            <h1 class="title is-1">
+            <h1 class="title is-1 is-handwriting">
               Our Story
             </h1>
           </div>
@@ -123,7 +123,7 @@
       <section class="section">
         <div class="container">
           <div class="heading">
-            <h2 class="subtitle is-2">Special Thanks</h2>
+            <h3 class="title is-3">Special Thanks</h3>
           </div>
           <hr>
           <div class="content">
@@ -142,7 +142,7 @@
 </template>
 
 <script>
-import GetInvolved from './../../components/GetInvolved.vue';
+import GetInvolved from './../../components/GetInvolved/GetInvolved.vue';
 export default {
   components: {
     GetInvolved

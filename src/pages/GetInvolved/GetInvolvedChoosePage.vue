@@ -4,10 +4,9 @@
         <section class="hero is-primary is-medium is-bold">
           <div class="hero-body">
             <div class="container">
-              <h1 class="title is-1">
+              <h1 class="title is-1 is-handwriting">
                 Get Involved
               </h1>
-              <h6 class="subtitle is-6">Work together with us; we will transform education together.</h6>
             </div>
           </div>
         </section>

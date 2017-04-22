@@ -3,9 +3,9 @@
         <section class="hero is-primary is-bold is-medium">
             <div class="hero-body">
                 <div class="container">
-                    <h1 class="title is-1">Volunteer</h1>
+                    <h1 class="title is-1 is-handwriting">Volunteer</h1>
                     <h6 class="subtitle is-6">Join us in educational impact</h6>
-                    <a href="#" class="button is-inverted is-primary">Volunteer Now</a>
+                    <a href="https://form.jotformz.com/62207581246656" class="button is-inverted is-primary">Volunteer Now</a>
                 </div>
             </div>
         </section>
@@ -19,8 +19,6 @@
                             <li>Student Outreach Officer</li>
                             <li>Event Planner</li>
                         </ul>
-                        <br>
-
                     </div>
                 </div>
             </div>
