@@ -4,34 +4,34 @@
             <div class="hero-body">
                 <div class="container">
                     <h1 class="title is-1 is-handwriting">Add fuel to our fire</h1>
-                    <a href="https://form.jotformz.com/71076504696664" class="button is-primary is-large is-inverted">
-                        <i class="fa fa-fire fa-fw fa-2x" aria-hidden="true"></i> Donate Now
-                    </a>
                 </div>
             </div>
         </section>
 
         <section class="section">
             <div class="container">
-                <div class="has-text-centered">
-                    <div class="padded-space"></div>
-                </div>
-                <div class="columns">
+                <div class="columns has-text-centered">
                     <div class="column">
-                        <h3 class="title is-3 is-handwriting">We care about education</h3>
+                        <h3 class="title is-3">We care about education</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                     <div class="column">
                         <div class="content">
-                            <h3 class="title is-3 is-handwriting">We Never Stop Moving</h3>
+                            <h3 class="title is-3">We Never Stop Moving</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>                        
+                        </div>
                     </div>
                     <div class="column">
-                        <h3 class="title is-3 is-handwriting">We Empower Youths</h3>
+                        <h3 class="title is-3">We Empower Youths</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                 </div>
+
+                <div class="has-text-centered">
+                    <br>
+                    <a href="https://form.jotformz.com/71076504696664" class="button is-primary is-large">Donate Now</a>
+                </div>
+
             </div>
         </section>
 
