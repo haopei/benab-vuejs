@@ -133,9 +133,10 @@ export default {
 
 .page-cog-2017 {
     &__hero {
-        background: #4C86A8; /* fallback for old browsers */
-        background: -webkit-linear-gradient(141deg, #4C86A8 , #AF9164); /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(-135deg, #4C86A8 , #AF9164); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: url('./static/chalkboard.jpg') center/cover;
+        // background: #4C86A8; /* fallback for old browsers */
+        // background: -webkit-linear-gradient(141deg, #4C86A8 , #AF9164); /* Chrome 10-25, Safari 5.1-6 */
+        // background: linear-gradient(-135deg, #4C86A8 , #AF9164); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     }
 

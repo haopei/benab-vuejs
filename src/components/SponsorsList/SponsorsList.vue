@@ -155,7 +155,7 @@ export default {
 
     .section--sponsors-list {
 
-        background: #BEA8AA;
+        background: #eee;
 
         &__inner {
             background: #fff;
