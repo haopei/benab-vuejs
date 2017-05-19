@@ -15,8 +15,8 @@
           <div class="row">
             <div class="col-xs-12 col-sm-5">
               <h3 class="title is-3">Grassroot Beginnings</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>The desire to create a forum where likeminded individuals could engage each other on a plethora of issues which affect the lives of Guyanese led to the convening of about ten (10) young persons in an informal manner on December 27, 2012. Mr. Elson Low and Mr. Robo Matheson, both recent high school graduates at the time, designed the forum to bring the best and brightest young Guyanese into a single location and have them contemplate, discuss and design practical solutions to issues surround mining, governance and transparency, and social development in Guyana, among other things.</p>
+              <p>The Benab Foundation Inc. is a secular, non- profit, politically unaffiliated think-tank, comprised of socially minded youths dedicated to improving the health, standard of living and educational level of the Guyanese populace. Since 2012, the Benab Foundation has impacted the lives of many youths primarily in education. </p>
               <br>
             </div>
             <div class="col-xs-12 col-sm-offset-1 col-sm-6">

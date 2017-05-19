@@ -18,7 +18,7 @@
                         <div class="box">
                             <h4 class="title is-spaced is-4">Volunteer</h4>
                             <img src="./static/GetInvolvedChoosePage/volunteer.jpg" alt="" class="is-fullwidth">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                            <p>We welcome you to be a part of the annual Cognitive Initiative Tutoring Programme!</p>
                             <br>
                             <router-link :to="{name: 'GetInvolvedVolunteerPage'}" class="button is-primary">Volunteer Now</router-link>
                         </div>
@@ -28,7 +28,7 @@
                         <div class="box">
                             <h4 class="title is-spaced is-4">Donate</h4>
                             <img src="./static/GetInvolvedChoosePage/donate2.jpg" alt="" class="is-fullwidth">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                            <p>Your contributions are always welcome as we work together to help youths reach their potential! </p>
                             <br>
                             <router-link :to="{name: 'GetInvolvedSponsorsPage'}" class="button is-primary">Donate Now</router-link>
                         </div>
@@ -38,7 +38,7 @@
                         <div class="box">
                             <h4 class="title is-spaced is-4">Join Our Team</h4>
                             <img src="./static/GetInvolvedChoosePage/join-team.jpg" alt="" class="is-fullwidth">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                            <p>As we continue to grow, we are excited to welcome new members to our family!</p>
                             <br>
                             <router-link :to="{name: 'GetInvolvedMembershipPage'}" class="button is-primary">Join Now</router-link>
                         </div>
