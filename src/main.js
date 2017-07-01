@@ -16,7 +16,6 @@ import HomePage from './pages/HomePage/HomePage.vue'
 import ProjectsPage from './pages/ProjectsPage.vue'
 
 
-
 // Page Partials
 import AllProjectsList from './components/AllProjectsList/AllProjectsList.vue'
 

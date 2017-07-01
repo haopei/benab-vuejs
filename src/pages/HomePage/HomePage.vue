@@ -16,7 +16,7 @@
       </div>
     </section> -->
 
-    <section class="hero intro is-large">
+    <section class="hero intro is-medium">
       <div class="hero-body">
         <div class="container">
           <div class="columns">

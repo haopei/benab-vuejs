@@ -4,12 +4,15 @@
             <img src="./cog-title-text.png" alt="">
             <br><br>
             <h3 class="subtitle is-3 is-handwriting is-white-text">Annual 30-days bootcamp to level up students in Mathematics and English</h3>
-            <router-link :to="{ name: 'Cog2017Page' }"><a class="button is-primary is-large">Learn More</a></router-link>
+            <br>
+            <a href="https://form.jotformz.com/71105704463651" target="_blank" class="button is-primary is-inverted is-large">Volunteer</a>
+            <router-link :to="{ name: 'Cog2017Page' }"><a class="button is-primary is-large is-outlined is-inverted">Learn More</a></router-link>
         </div>
     </section>
 </template>
 
 <script>
+
 export default {
     data() {
         return {

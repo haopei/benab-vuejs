@@ -11,11 +11,11 @@
 
 export const allCogSponsors = {
     year2017: [
-        {
-            name: 'You',
-            contribution: 'Provided lunch for (n) volunteer tutors every day for (n) days.',
-            image: require('./static/churchs-128x128.png')
-        }
+        // {
+        //     name: 'You',
+        //     contribution: 'Provided lunch for (n) volunteer tutors every day for (n) days.',
+        //     image: require('./static/churchs-128x128.png')
+        // }
     ],
     year2016: [
         {
@@ -31,7 +31,7 @@ export const allCogSponsors = {
     ],
     year2015: [
         {
-            name: 'Western Union',
+            name: 'Church\'s',
             contribution: 'Provided lunch for (n) volunteer tutors every day for (n) days.',
             image: require('./static/churchs-128x128.png')
         }
