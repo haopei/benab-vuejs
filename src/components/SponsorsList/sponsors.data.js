@@ -19,11 +19,6 @@ export const allCogSponsors = {
     ],
     year2016: [
         {
-            name: 'Church\'s',
-            contribution: 'Provided lunch for (n) volunteer tutors every day for (n) days.',
-            image: require('./static/churchs-128x128.png')
-        },
-        {
             name: 'Western Union',
             contribution: 'Provided lunch for (n) volunteer tutors every day for (n) days.',
             image: require('./static/western-union-128x128.png')
@@ -38,16 +33,16 @@ export const allCogSponsors = {
     ],
     year2014: [
         {
-            name: 'Church\'s',
+            name: 'Troy Resources',
             contribution: 'Provided lunch for (n) volunteer tutors every day for (n) days.',
-            image: require('./static/churchs-128x128.png')
+            image: require('./static/troy.png')
         }
     ],
     year2013: [
         {
-            name: 'Church\'s',
+            name: 'Troy Resources',
             contribution: 'Provided lunch for (n) volunteer tutors every day for (n) days.',
-            image: require('./static/churchs-128x128.png')
+            image: require('./static/troy.png')
         }
     ]
 }

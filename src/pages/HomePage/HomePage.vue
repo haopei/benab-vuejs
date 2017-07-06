@@ -16,16 +16,15 @@
       </div>
     </section> -->
 
-    <section class="hero intro is-medium">
+    <section class="hero intro is-medium hide">
       <div class="hero-body">
         <div class="container">
           <div class="columns">
             <div class="column">
               <div class="has-text-centered">
                 <img src="./../../assets/benab-logo.png" alt="">
-                <p class="subtitle is-3 is-spaced">We execute</p>
-                <h1 class="title is-1 is-handwriting is-spaced">socially-impactful ideas</h1>
-                <p class="subtitle is-3 is-spaced">through volunteerism</p>
+                <p class="subtitle is-3 is-spaced">This is where the future lies: </p>
+                <h1 class="title is-1 is-handwriting is-spaced">in the youth of today</h1>
               </div>
             </div>
           </div>

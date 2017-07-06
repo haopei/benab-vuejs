@@ -6,11 +6,12 @@
         <hr>
         <div class="columns">
             <div class="column">
-                <h5 class="subtitle is-5">Become a Volunteer</h5>
+                <h5 class="subtitle is-5">Volunteer for Cognitive Initiative</h5>
                 <img :src="require('./static/volunteer.jpg')" alt="">
                 <!-- <p class="small">It will be the one of the most rewarding experiences in your life</p> -->
                 <br>
-                <router-link :to="{name: 'GetInvolvedVolunteerPage'}" class="button is-primary is-outlined is-inverted">Volunteer</router-link>
+                <a href="https://form.jotformz.com/71105704463651" class="button is-primary is-outlined is-inverted" target="_blank">Volunter</a>
+                <!-- <router-link :to="{name: 'GetInvolvedVolunteerPage'}" class="button is-primary is-outlined is-inverted">Volunteer</router-link> -->
             </div>
             <div class="column">
                 <h5 class="subtitle is-5">Become a Sponsor</h5>

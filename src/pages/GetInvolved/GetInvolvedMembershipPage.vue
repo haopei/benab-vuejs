@@ -19,7 +19,7 @@
                         <li>Marketing Officer</li>
                     </ul>
                     <br>
-                    <a href="https://form.jotformz.com/62207581246656" class="button is-primary">Join Now</a>
+                    <a href="https://form.jotformz.com/62207581246656" target="_blank" class="button is-primary">Join Now</a>
                 </div>
             </div>
 

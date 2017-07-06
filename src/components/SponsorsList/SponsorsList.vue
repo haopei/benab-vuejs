@@ -22,7 +22,7 @@
                           <div class="column">
                               <div class="columns">
                                   <div v-for="sponsor in cogSponsors2017" class="sponsor-item column is-one-third-mobile is-inline-block-mobile">
-                                      <figure class="image is-64x64">
+                                      <figure class="image is-128x128">
                                           <img :src="sponsor.image" :alt="sponsor.name">
                                       </figure>
                                   </div>
@@ -40,7 +40,7 @@
                           <div class="column">
                               <div class="columns">
                                   <div v-for="sponsor in cogSponsors2016" class="sponsor-item column is-one-third-mobile is-inline-block-mobile">
-                                      <figure class="image is-64x64">
+                                      <figure class="image is-128x128">
                                           <img :src="sponsor.image" :alt="sponsor.name">
                                       </figure>
                                   </div>
@@ -50,9 +50,7 @@
                   </div>
                   <hr>
 
-                  <button @click="showMoreSponsors" class="button is-link">Show All Sponsors</button>
 
-                  <div v-if="showAllSponsors">
                       <div class="sponsor-list--by-year">
                           <div class="columns">
                               <div class="column is-2">
@@ -61,7 +59,7 @@
                               <div class="column">
                                   <div class="columns">
                                       <div v-for="sponsor in cogSponsors2015" class="sponsor-item column is-one-third-mobile is-inline-block-mobile">
-                                          <figure class="image is-64x64">
+                                          <figure class="image is-128x128">
                                               <img :src="sponsor.image" :alt="sponsor.name">
                                           </figure>
                                       </div>
@@ -80,7 +78,7 @@
                               <div class="column">
                                   <div class="columns">
                                       <div v-for="sponsor in cogSponsors2014" class="sponsor-item column is-one-third-mobile is-inline-block-mobile">
-                                          <figure class="image is-64x64">
+                                          <figure class="image is-128x128">
                                               <img :src="sponsor.image" :alt="sponsor.name">
                                           </figure>
                                       </div>
@@ -98,7 +96,7 @@
                               <div class="column">
                                   <div class="columns">
                                       <div v-for="sponsor in cogSponsors2013" class="sponsor-item column is-one-third-mobile is-inline-block-mobile">
-                                          <figure class="image is-64x64">
+                                          <figure class="image is-128x128">
                                               <img :src="sponsor.image" :alt="sponsor.name">
                                           </figure>
                                       </div>
@@ -106,7 +104,6 @@
                               </div>
                           </div>
                       </div>
-                  </div>
                   <br>
                   <div class="has-text-centered">
                       <router-link :to="{name: 'GetInvolvedSponsorsPage'}" class="button is-primary is-large">Become a Sponsor</router-link>
@@ -139,10 +136,10 @@ export default {
         this.cogSponsors2017 = allCogSponsors.year2017;
     },
     methods: {
-        showMoreSponsors(e) {
-            this.showAllSponsors = true;
-            e.target.classList.add('hide-me');
-        }
+        // showMoreSponsors(e) {
+        //     this.showAllSponsors = true;
+        //     e.target.classList.add('hide-me');
+        // }
     }
 }
 </script>

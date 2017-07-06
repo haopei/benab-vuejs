@@ -7,6 +7,15 @@
             <br>
             <a href="https://form.jotformz.com/71105704463651" target="_blank" class="button is-primary is-inverted is-large">Volunteer</a>
             <router-link :to="{ name: 'Cog2017Page' }"><a class="button is-primary is-large is-outlined is-inverted">Learn More</a></router-link>
+
+            <br>
+
+            <div class="cog-hero__start-date">
+                <div>
+                    Starts August 2017
+                </div>
+            </div>
+
         </div>
     </section>
 </template>
@@ -28,6 +37,12 @@ export default {
     // background: #4C86A8; /* fallback for old browsers */
     // background: -webkit-linear-gradient(141deg, #4C86A8 , #AF9164); /* Chrome 10-25, Safari 5.1-6 */
     // background: linear-gradient(-135deg, #4C86A8 , #AF9164); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.cog-hero__start-date {
+    color: #229953;
+    font-size: 2rem;
+    margin-top: 2rem;
 }
 
 </style>

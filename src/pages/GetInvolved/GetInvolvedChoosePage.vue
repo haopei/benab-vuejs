@@ -20,7 +20,7 @@
                             <img src="./static/GetInvolvedChoosePage/volunteer.jpg" alt="" class="is-fullwidth">
                             <p>We welcome you to be a part of the annual Cognitive Initiative Tutoring Programme!</p>
                             <br>
-                            <router-link :to="{name: 'GetInvolvedVolunteerPage'}" class="button is-primary">Volunteer Now</router-link>
+                            <a href="https://form.jotformz.com/71105704463651" class="button is-primary" target="_blank">Volunter</a>
                         </div>
                     </div>
 

@@ -13,17 +13,17 @@
                 <div class="columns has-text-centered">
                     <div class="column">
                         <h3 class="title is-3">We care about education</h3>
-                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+                        <p>"Education is the most powerful weapon which you can use to change the world" - Nelson Mandela</p>
                     </div>
                     <div class="column">
                         <div class="content">
                             <h3 class="title is-3">We Never Stop Moving</h3>
-                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+                            <p>Each year, we look to expand the number of less fortunate students we reach, expand our projects, and ultimately expand our reach as we continue to strive to positively impact the lives of Guyanese Youth.</p>
                         </div>
                     </div>
                     <div class="column">
                         <h3 class="title is-3">We Empower Youths</h3>
-                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
+                        <p>"The foundation of every state is its youth" - Diogenes</p>
                     </div>
                 </div>
 

@@ -1,16 +1,16 @@
 <template lang="html">
   <div class="volunteer">
     <article class="media">
-      <figure class="media-left">
+      <!-- <figure class="media-left">
         <p class="image is-48x48">
           <img :src="image">
         </p>
-      </figure>
+      </figure> -->
       <div class="media-content">
         <div class="content">
           <p>
             <strong>{{name}}</strong> <br>
-            <small>{{role}}</small>
+            <!-- <small>{{role}}</small> -->
           </p>
         </div>
       </div>

@@ -16,7 +16,8 @@ export default {
 
 <style lang="scss">
 footer {
-
     padding: 1rem;
+    background: #4b5267;
+    color: #fff;
 }
 </style>

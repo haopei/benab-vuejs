@@ -17,7 +17,7 @@
                         </figure>
                         <br><br>
                         <h4 class="subtitle is-4">Lessons Across All Levels</h4>
-                        <p>Our students are assessed and placed into specific classrooms <br> where lessons are designed to patch and strengthen their <br> understanding of core concepts.</p>
+                        <p>Our Mathematics and English curricula were developed with the input of senior teachers (Gen Rohlehr, Lenise Parker) and scholars. </p>
                     </div>
 
                 </div>
@@ -28,7 +28,7 @@
                         </figure>
                         <br><br>
                         <h4 class="subtitle is-4">Crème de la crème Volunteers</h4>
-                        <p>Our students are assessed and placed into specific classrooms <br> where lessons are designed to patch and strengthen their <br> understanding of core concepts.</p>
+                        <p>our volunteers have all been scholars in their own regard and possess the competence and drive to mentor our young students.</p>
                     </div>
                 </div>
                 <div v-if="tabs.active == 'focused-mentorship'" class="">
@@ -38,7 +38,7 @@
                         </figure>
                         <br><br>
                         <h4 class="subtitle is-4">1-on-1 Attention on Demand</h4>
-                        <p>Our volunteers are deployed to the classroom in teams <br> and continuously assess our students understanding. <br> This means there is more attention per student. </p>
+                        <p>We aim to have two volunteers per classroom to ensure each child receives sufficient one-on-one attention as necessary to ensure their maximum benefit and learning.</p>
                     </div>
                 </div>
             </div>
