@@ -20,4 +20,7 @@ footer {
     background: #4b5267;
     color: #fff;
 }
+footer > .content {
+    color: #fff;
+}
 </style>
