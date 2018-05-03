@@ -7,15 +7,12 @@
             <br>
             <a href="https://form.jotformz.com/71105704463651" target="_blank" class="button is-primary is-inverted is-large">Volunteer</a>
             <router-link :to="{ name: 'Cog2017Page' }"><a class="button is-primary is-large is-outlined is-inverted">Learn More</a></router-link>
-
             <br>
-
             <div class="cog-hero__start-date">
                 <div>
                     Starts July 2018
                 </div>
             </div>
-
         </div>
     </section>
 </template>
