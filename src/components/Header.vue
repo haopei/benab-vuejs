@@ -25,7 +25,7 @@
         <!-- Add the modifier "is-active" to display it on mobile -->
         <div class="nav-right nav-menu">
             <router-link :to="{ name: 'HomePage' }" class="nav-item is-tab"><a @click="handleLinkClick">Home</a></router-link>
-            <router-link :to="{ name: 'Cog2017Page' }" class="nav-item is-tab"><a @click="handleLinkClick">Cog2017</a></router-link>
+            <router-link :to="{ name: 'Cog2017Page' }" class="nav-item is-tab"><a @click="handleLinkClick">The Cognitive Initiative <sup><small>2018</small></sup></sup></a></router-link>
             <!-- <router-link :to="{ name: 'AllProjectsList' }" class="nav-item is-tab"><a @click="handleLinkClick">Projects</a></router-link> -->
             <router-link :to="{ name: 'AboutPage' }" class="nav-item is-tab"><a @click="handleLinkClick">About</a></router-link>
             <router-link :to="{ name: 'ContactPage' }" class="nav-item is-tab"><a @click="handleLinkClick">Contact</a></router-link>

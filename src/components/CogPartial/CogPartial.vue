@@ -12,7 +12,7 @@
 
             <div class="cog-hero__start-date">
                 <div>
-                    Starts August 2017
+                    Starts July 2018
                 </div>
             </div>
 
