@@ -2,7 +2,7 @@
     <section class="section section__volunteers">
         <div class="container-fluid">
             <div class="heading has-text-centered">
-                <h2 class="title is-2 is-handwriting">Thank You, Volunteers!</h2>
+                <h2 class="title is-2 is-handwriting">Thank You, 2016 Volunteers!</h2>
                 <br>
             </div>
             <div class="volunteers-list">
@@ -25,6 +25,7 @@ import VolunteersList from './../../../components/VolunteersList/VolunteersList.
 const volunteers = [
     {name: 'Benita Davis', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.png'), quote: 'something', isActive: false},
     {name: 'Chelsea Frank', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.png'), quote: 'something', isActive: false},
+    {name: 'Curtly Frank', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.png'), quote: 'something', isActive: false},
     {name: 'Daniella Sobers', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.png'), quote: 'something', isActive: false},
     {name: 'Haopei Yang', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.png'), quote: 'something', isActive: false},
     {name: 'Joel Trotman', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.png'), quote: 'something', isActive: false},
@@ -33,7 +34,7 @@ const volunteers = [
     {name: 'Krystal Sukra', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.png'), quote: 'something', isActive: false},
     {name: 'Larry Carryl', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.png'), quote: 'something', isActive: false},
     {name: 'Maria Singh', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.png'), quote: 'something', isActive: false},
-    {name: 'Maryam Bacchus', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.png'), quote: 'something', isActive: false},
+    {name: 'Maryam K. Bacchus', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.png'), quote: 'something', isActive: false},
     {name: 'Nathifa Victorine', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.png'), quote: 'something', isActive: false},
     {name: 'Reashmi Nauth', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.png'), quote: 'something', isActive: false},
     {name: 'Saevion David-Longe', role: 'Volunteer', image: require('./static/volunteer-thumbnails/saevion-thumb.png'), quote: 'something', isActive: false},
