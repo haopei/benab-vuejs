@@ -1,7 +1,7 @@
 <template>
     <div class="page page-cog-2017">
 
-        <section class="hero is-medium is-primary background--cog-hero">
+        <section class="hero is-medium is-primary has-text-centered background--cog-hero">
           <div class="hero-body">
             <div class="container">
               <h1 class="title is-spaced">
@@ -22,6 +22,26 @@
             </div>
           </div>
         </section>
+
+        <div class="section section__schedule">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h1 class="title is-1">2018 Schedule</h1>
+                        <ul>
+                            <p><strong>Start Date:</strong> 16th July, 2018</p>
+                            <p><strong>Closing Ceremony:</strong> 17th August, 2018</p>
+                            <p><strong>Venue:</strong> Queen's College</p>
+                            <p><strong>Tutoring Time:</strong> 9:30 AM - 1:30 PM</p>
+                        </ul>
+                    </div>
+                    <div class="col-sm-8">
+                        <img src="./static/2017-pics/1.jpg" alt="">
+                        <img src="./static/2017-pics/2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <section class="section page-cog-2017__overview">
             <div class="container">
@@ -54,20 +74,6 @@
                 <h2 class="title is-2 text--white tinted-label">Students learn leadership, health and discipline</h2>
             </div>
         </section>
-
-        <!-- <section class="section">
-            <div class="container-fluid">
-                <h2 class="title">Gallery</h2>
-                <swiper :options="swiperOptions">
-                    <swiper-slide v-for="image in galleryImages" :key="image.src">
-                        <img :src="image.src" alt="" width="300" height="300">
-                    </swiper-slide>
-                    <div class="swiper-pagination" slot="pagination"></div>
-                    <div class="swiper-button-prev" slot="button-prev"></div>
-                    <div class="swiper-button-next" slot="button-next"></div>
-                </swiper>
-            </div>
-        </section> -->
 
         <cog-volunteers></cog-volunteers>
 
@@ -163,8 +169,11 @@ export default {
         background: url('./static/21.jpg') center/cover;
         padding: 20rem 0;
     }
+}
 
-
+.section__schedule {
+    background: #946340;
+    color: #fff;
 }
 
 .tinted-label {

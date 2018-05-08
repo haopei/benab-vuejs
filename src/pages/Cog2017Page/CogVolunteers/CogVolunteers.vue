@@ -2,7 +2,7 @@
     <section class="section section__volunteers">
         <div class="container-fluid">
             <div class="heading has-text-centered">
-                <h2 class="title is-2 is-handwriting">Thank You, 2016 Volunteers!</h2>
+                <h2 class="title is-2 is-handwriting">Thank You, Volunteers!</h2>
                 <br>
             </div>
             <div class="volunteers-list">
