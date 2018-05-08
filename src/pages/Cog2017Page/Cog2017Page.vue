@@ -36,8 +36,8 @@
                         </ul>
                     </div>
                     <div class="col-sm-8">
-                        <img src="./static/2017-pics/1.jpg" alt="">
-                        <img src="./static/2017-pics/2.jpg" alt="">
+                        <img src="./static/2017-pics/2017-1.jpg" alt="">
+                        <img src="./static/2017-pics/2017-2.jpg" alt="">
                     </div>
                 </div>
             </div>
