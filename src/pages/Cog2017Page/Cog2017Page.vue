@@ -107,7 +107,7 @@ import SponsorsList from './../../components/SponsorsList/SponsorsList.vue'
 import GetInvolved from './../../components/GetInvolved/GetInvolved.vue'
 import { galleryImages } from './data.js'
 import { swiper, swiperSlide } from 'vue-awesome-swiper'
-import CogFeaturesTabs from './CogFeaturesTabs.vue'
+import CogFeaturesTabs from '@/src/components/CogFeaturesTab/CogFeaturesTabs.vue'
 import CogVolunteers from './CogVolunteers/CogVolunteers.vue'
 
 export default {
@@ -144,13 +144,6 @@ export default {
 <style lang="scss">
 
 .page-cog-2017 {
-    &__hero {
-        background: url('./static/chalkboard.jpg') center/cover;
-        // background: #4C86A8; /* fallback for old browsers */
-        // background: -webkit-linear-gradient(141deg, #4C86A8 , #AF9164); /* Chrome 10-25, Safari 5.1-6 */
-        // background: linear-gradient(-135deg, #4C86A8 , #AF9164); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    }
 
     &__quirks {
         &--left-padding {

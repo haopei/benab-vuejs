@@ -30,6 +30,9 @@ export default {
     @import '~bulma/bulma.sass';
     @import '~bootstrap-grid/dist/grid.min.css';
 
+    .background--cog-hero {
+        background: url('/src/assets/images/chalkboard.jpg') center/cover;
+    }
 
     .is-handwriting {
         font-family: $handwritingFont;

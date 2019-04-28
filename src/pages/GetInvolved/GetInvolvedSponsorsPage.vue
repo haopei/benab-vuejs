@@ -29,7 +29,7 @@
 
                 <div class="has-text-centered">
                     <hr>
-                    <a href="https://form.jotformz.com/71076504696664" class="button is-primary is-large">Donate Now</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfsNgQh7xtYHMUbwD8yJjWBUwHz6I3oLBHxHzl-Q6zsC-axKA/viewform?usp=sf_link" target="_blank" class="button is-primary is-large">Donate Now</a>
                 </div>
 
             </div>

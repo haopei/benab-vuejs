@@ -20,7 +20,7 @@
                             <img src="./static/GetInvolvedChoosePage/volunteer.jpg" alt="" class="is-fullwidth">
                             <p>We welcome you to be a part of the annual Cognitive Initiative Tutoring Programme!</p>
                             <br>
-                            <a href="https://form.jotformz.com/71105704463651" class="button is-primary" target="_blank">Volunter</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_byw1pLmhnePncCoUSNHqPMR37n2carx2WB64eaYolfqzpQ/viewform?usp=sf_link" class="button is-primary">Sign Up As Volunteer Tutor</a>
                         </div>
                     </div>
 

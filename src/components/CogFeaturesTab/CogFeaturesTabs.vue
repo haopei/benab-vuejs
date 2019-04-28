@@ -3,6 +3,9 @@
     <section class="section ">
         <div class="container">
             <div class="tabs is-centered is-fullwidth is-boxed">
+              <h2 class="subtitle">Workshop Features</h2>
+            </div>
+            <div class="tabs is-centered is-fullwidth is-boxed">
               <ul>
                 <li class="is-active"><a @click="handleTabClick" data-tab="tailored">Adaptive Curriculum</a></li>
                 <li><a @click="handleTabClick" data-tab="volunteers">Volunteers</a></li>
@@ -17,7 +20,7 @@
                         </figure>
                         <br><br>
                         <h4 class="subtitle is-4">Lessons Across All Levels</h4>
-                        <p>Our Mathematics and English curricula were developed with the input of senior teachers (Gen Rohlehr, Lenise Parker) and scholars. </p>
+                        <p>Our Mathematics and English curricula were developed with the input of senior teachers (Gen Rohlehr, Lenise Parker) and scholars. We assess the level of competencies of students and tailor lessons which will take them forward the next steps.</p>
                     </div>
 
                 </div>
@@ -27,8 +30,8 @@
                             <img :src="require('./static/tabs/volunteers.jpg')" alt="">
                         </figure>
                         <br><br>
-                        <h4 class="subtitle is-4">Crème de la crème Volunteers</h4>
-                        <p>our volunteers have all been scholars in their own regard and possess the competence and drive to mentor our young students.</p>
+                        <h4 class="subtitle is-4">Volunteers are Top Performing Students</h4>
+                        <p>We recruit volunteers who have performed exceptionally well themselves in CSEC Exams. Moreover, we select those who are especially motivated, patient and energized to work with young children.</p>
                     </div>
                 </div>
                 <div v-if="tabs.active == 'focused-mentorship'" class="">

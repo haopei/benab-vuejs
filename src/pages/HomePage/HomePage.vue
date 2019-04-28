@@ -16,7 +16,7 @@
       </div>
     </section> -->
 
-    <section class="hero intro is-medium hide">
+    <!-- <section class="hero intro is-medium">
       <div class="hero-body">
         <div class="container">
           <div class="columns">
@@ -30,9 +30,27 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <cog-partial></cog-partial>
+    <section class="hero is-medium is-primary has-text-centered background--cog-hero">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title is-spaced">
+              <img src="/src/assets/images/cog-title-text.png" alt="">
+              <br>
+              <span style="font-size: 2rem;">July-August 2019</span>
+          </h1>
+
+          <h2 class="subtitle page-cog-2017__quirks--left-padding" style="margin: 3rem auto; max-width: 500px;">
+              <p>Our annual bootcamp to boost the confidence and competency of young, under-performing students in Mathematics and English. </p>
+          </h2>
+
+          <p>Get involved as a volunteer tutor or sponsor</p>
+          <br>
+          <router-link :to="{ name: 'CogPageCurrent' }"><a class="button is-primary is-large">Learn More</a></router-link>
+        </div>
+      </div>
+    </section>
 
     <section class="section media-coverage has-text-centered">
         <div class="container">
@@ -84,15 +102,11 @@ import GetInvolved from './../../components/GetInvolved/GetInvolved.vue'
 import SponsorsList from './../../components/SponsorsList/SponsorsList.vue'
 import Testimonial from './../../components/Testimonial.vue';
 
-// Partial Imports
-import CogPartial from './../../components/CogPartial/CogPartial.vue'
-
 export default {
   components: {
     GetInvolved,
     SponsorsList,
-    Testimonial,
-    CogPartial
+    Testimonial
   }
 }
 </script>
